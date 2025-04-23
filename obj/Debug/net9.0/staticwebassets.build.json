@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3LfhBCAGYeA5pix+ua0mhMfo6aCJaFJWFet/8uv6rvA=",
+  "Hash": "tHzF9uS2xQ7dv+TPI5iIj/oO0SSe/CYOpknFoTtYZKY=",
   "Source": "AdminLTEKutuphane",
   "BasePath": "_content/AdminLTEKutuphane",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "AdminLTEKutuphane/wwwroot",
       "Source": "AdminLTEKutuphane",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/",
       "BasePath": "_content/AdminLTEKutuphane",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/05yrzoi9uv-61n19gt1b8.gz",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/05yrzoi9uv-61n19gt1b8.gz",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "favicon#[.{fingerprint=61n19gt1b8}]?.ico.gz",
       "AssetKind": "All",
@@ -28,20 +28,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/favicon.ico",
+      "RelatedAsset": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/favicon.ico",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "gjtj35e07v",
-      "Integrity": "tOy5kS1PTkjkEg7bjV8bJa0VpoEZJUHnbqYmm1YyhMg=",
+      "Fingerprint": "mlvj3godlo",
+      "Integrity": "RvZiU7N9wIvFBRUw5m2hD/ucz7CYe+7tCebSzxwrABk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/favicon.ico"
+      "OriginalItemSpec": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/favicon.ico"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/5m6djxnqo0-l2ewhp8w1q.gz",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/5m6djxnqo0-l2ewhp8w1q.gz",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "css/adminlte.rtl.min#[.{fingerprint=l2ewhp8w1q}]?.css.gz",
       "AssetKind": "All",
@@ -49,20 +49,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/css/adminlte.rtl.min.css",
+      "RelatedAsset": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/css/adminlte.rtl.min.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "shw1xasqvn",
-      "Integrity": "wMNc4T1+Y2B2WJLC2ghMz/qBQXFHOOXA2H7idkiLb00=",
+      "Fingerprint": "efgeb5c47m",
+      "Integrity": "qimGFexXEm40olkbuaxqV3rQCh9wsvcv3UKi9u5R4cQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/css/adminlte.rtl.min.css"
+      "OriginalItemSpec": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/css/adminlte.rtl.min.css"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/5s91qv1jtk-sc6ou6m5p0.gz",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/5s91qv1jtk-sc6ou6m5p0.gz",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "js/adminlte.min#[.{fingerprint=sc6ou6m5p0}]?.js.gz",
       "AssetKind": "All",
@@ -70,20 +70,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/js/adminlte.min.js",
+      "RelatedAsset": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/js/adminlte.min.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "na8w1idtfw",
-      "Integrity": "AdW/hb7wPPb29IvP2vklxjeDxvPYno7N8fZrhpk8PWI=",
+      "Fingerprint": "nn8qu44yzj",
+      "Integrity": "rSPSu40KbtSj1eeZcqz1FpoMV+f5SgAaDy9ophzuJ5M=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/js/adminlte.min.js"
+      "OriginalItemSpec": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/js/adminlte.min.js"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/atk26iq4xh-s5dfy8cuvy.gz",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/atk26iq4xh-s5dfy8cuvy.gz",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "js/adminlte#[.{fingerprint=s5dfy8cuvy}]?.js.gz",
       "AssetKind": "All",
@@ -91,20 +91,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/js/adminlte.js",
+      "RelatedAsset": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/js/adminlte.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "2snyj7cib0",
-      "Integrity": "4lvKteK93a1lecMnfrXlhl+7FV/Nydndnl4K00BguEA=",
+      "Fingerprint": "0he077zjlu",
+      "Integrity": "vONG879QTvbrBiRMXV6QImlAdxSifxggShmv2w+UzEQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/js/adminlte.js"
+      "OriginalItemSpec": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/js/adminlte.js"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/c3ggnjfu27-0yrv5hdzet.gz",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/c3ggnjfu27-0yrv5hdzet.gz",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Computed",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "AdminLTEKutuphane#[.{fingerprint=0yrv5hdzet}]?.styles.css.gz",
       "AssetKind": "All",
@@ -112,20 +112,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/scopedcss/bundle/AdminLTEKutuphane.styles.css",
+      "RelatedAsset": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/scopedcss/bundle/AdminLTEKutuphane.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "z4f6g563b7",
-      "Integrity": "3QkAeYSRK0jq6/Uw8RaFWNnY8akd2sYvgItn7MYF6w8=",
+      "Fingerprint": "r69c18s53s",
+      "Integrity": "g3qHQ1UkTYsY1+Dvx3VZOSgLNs2S1RzXk81l4mGarnk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/scopedcss/bundle/AdminLTEKutuphane.styles.css"
+      "OriginalItemSpec": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/scopedcss/bundle/AdminLTEKutuphane.styles.css"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/dscyqf63a7-3zpwalpuda.gz",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/dscyqf63a7-3zpwalpuda.gz",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "css/adminlte.css#[.{fingerprint=3zpwalpuda}]?.map.gz",
       "AssetKind": "All",
@@ -133,20 +133,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/css/adminlte.css.map",
+      "RelatedAsset": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/css/adminlte.css.map",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "ttbtoww6kl",
-      "Integrity": "IfkPOXAKfl0AjmYfZMFKfAS79ijRoxmO6MimCpI/xCw=",
+      "Fingerprint": "dxxyp9t74h",
+      "Integrity": "Qe2ZHhZpwWBR/OqTuvMF7D+FRcDN6N7wE4Re1KgOfp8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/css/adminlte.css.map"
+      "OriginalItemSpec": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/css/adminlte.css.map"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/enogbttox3-3ti8pkgn20.gz",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/enogbttox3-3ti8pkgn20.gz",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "css/adminlte#[.{fingerprint=3ti8pkgn20}]?.css.gz",
       "AssetKind": "All",
@@ -154,20 +154,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/css/adminlte.css",
+      "RelatedAsset": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/css/adminlte.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "jykvouhqmz",
-      "Integrity": "JaROjqZRW1u87qELSfbik46i5QO+50H2phepFSe5gOI=",
+      "Fingerprint": "qcdfkrobr8",
+      "Integrity": "WhFsExbWyp4MArylwAW8luiUBZE1W9vdN79+Q1fzoaE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/css/adminlte.css"
+      "OriginalItemSpec": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/css/adminlte.css"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/i5hs4q9mc4-q8ls3kvgdx.gz",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/i5hs4q9mc4-q8ls3kvgdx.gz",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "css/adminlte.rtl.min.css#[.{fingerprint=q8ls3kvgdx}]?.map.gz",
       "AssetKind": "All",
@@ -175,20 +175,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/css/adminlte.rtl.min.css.map",
+      "RelatedAsset": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/css/adminlte.rtl.min.css.map",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "6x6l62hdec",
-      "Integrity": "tovqw9oaF02nww7h8VvYZ6Pc/uI7W1UQqPIE5ggQoes=",
+      "Fingerprint": "24qnrpmqhk",
+      "Integrity": "8sL9N0EdWYNFGtz3eViToAB5mgL9bX2KBqQ6AhhQH6I=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/css/adminlte.rtl.min.css.map"
+      "OriginalItemSpec": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/css/adminlte.rtl.min.css.map"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/iqtng8a647-nt7juh6h50.gz",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/iqtng8a647-nt7juh6h50.gz",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "css/adminlte.min.css#[.{fingerprint=nt7juh6h50}]?.map.gz",
       "AssetKind": "All",
@@ -196,20 +196,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/css/adminlte.min.css.map",
+      "RelatedAsset": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/css/adminlte.min.css.map",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "ciclx3gpcd",
-      "Integrity": "lB/CckBZX31bYJhB3JBeoAqrsSWhVpfSE7AoDvA0tM8=",
+      "Fingerprint": "0ub2gpicda",
+      "Integrity": "mCP78GFh7yLa4UyOR0LlfNlx+mqMhJzuXrir7bxtNjk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/css/adminlte.min.css.map"
+      "OriginalItemSpec": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/css/adminlte.min.css.map"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/jcpkxhz7wq-a1v63x9wfv.gz",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/jcpkxhz7wq-a1v63x9wfv.gz",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "css/adminlte.rtl.css#[.{fingerprint=a1v63x9wfv}]?.map.gz",
       "AssetKind": "All",
@@ -217,20 +217,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/css/adminlte.rtl.css.map",
+      "RelatedAsset": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/css/adminlte.rtl.css.map",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "jvlsdwuhkb",
-      "Integrity": "vyqMRwQ4HPlCkor4U2e539b6hyAd6xXgkxdUXNV5y1A=",
+      "Fingerprint": "4a9ye8v0h0",
+      "Integrity": "fEFYkF2fC9cC8nJvlc5/sgMt0Z8/WdWfkkHXly/ifpY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/css/adminlte.rtl.css.map"
+      "OriginalItemSpec": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/css/adminlte.rtl.css.map"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/prcbvd94ok-3xv8oehij3.gz",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/prcbvd94ok-3xv8oehij3.gz",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "js/adminlte.min.js#[.{fingerprint=3xv8oehij3}]?.map.gz",
       "AssetKind": "All",
@@ -238,20 +238,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/js/adminlte.min.js.map",
+      "RelatedAsset": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/js/adminlte.min.js.map",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "m704qpgke7",
-      "Integrity": "7sfQOO0AUgOQWYt1HpuZ4JdBkXkoLiNm+r+O22e8uGQ=",
+      "Fingerprint": "49f9jw80qp",
+      "Integrity": "eKhYFIGW74kns+87l4+9Oh1owedr4lIKQzD+t4DJbrI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/js/adminlte.min.js.map"
+      "OriginalItemSpec": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/js/adminlte.min.js.map"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/q47h16oz27-ddky5r22iq.gz",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/q47h16oz27-ddky5r22iq.gz",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "js/adminlte.js#[.{fingerprint=ddky5r22iq}]?.map.gz",
       "AssetKind": "All",
@@ -259,20 +259,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/js/adminlte.js.map",
+      "RelatedAsset": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/js/adminlte.js.map",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "4hbw9xf3uy",
-      "Integrity": "6IBAQc8lMgOu4SC5VK/uBEPrWzxdvk7tZGpT2jKI6wc=",
+      "Fingerprint": "kgx0296tfl",
+      "Integrity": "ZE8Oz64eYc1uFdCkMb+Rfg5ZosXrKMGy2AFE7mXtq3A=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/js/adminlte.js.map"
+      "OriginalItemSpec": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/js/adminlte.js.map"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/sxobcqfaim-gjrdkc01zn.gz",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/sxobcqfaim-gjrdkc01zn.gz",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "css/adminlte.min#[.{fingerprint=gjrdkc01zn}]?.css.gz",
       "AssetKind": "All",
@@ -280,20 +280,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/css/adminlte.min.css",
+      "RelatedAsset": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/css/adminlte.min.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "5pk9oj8gzg",
-      "Integrity": "CZUXIn4Ulxol1uQ28owi54eKy+kCb0BPMW6S182UtBI=",
+      "Fingerprint": "vt1nbzd3ni",
+      "Integrity": "A1As0mAKYRoRmBXZnjDXkuVnk+ckogBX6IUy7GLlh78=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/css/adminlte.min.css"
+      "OriginalItemSpec": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/css/adminlte.min.css"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/vnm11u0le8-0yrv5hdzet.gz",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/vnm11u0le8-0yrv5hdzet.gz",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Computed",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "AdminLTEKutuphane#[.{fingerprint=0yrv5hdzet}]!.bundle.scp.css.gz",
       "AssetKind": "All",
@@ -301,20 +301,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/scopedcss/projectbundle/AdminLTEKutuphane.bundle.scp.css",
+      "RelatedAsset": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/scopedcss/projectbundle/AdminLTEKutuphane.bundle.scp.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "z4f6g563b7",
-      "Integrity": "3QkAeYSRK0jq6/Uw8RaFWNnY8akd2sYvgItn7MYF6w8=",
+      "Fingerprint": "r69c18s53s",
+      "Integrity": "g3qHQ1UkTYsY1+Dvx3VZOSgLNs2S1RzXk81l4mGarnk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/scopedcss/projectbundle/AdminLTEKutuphane.bundle.scp.css"
+      "OriginalItemSpec": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/scopedcss/projectbundle/AdminLTEKutuphane.bundle.scp.css"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/vvxke2w308-l5kagb46um.gz",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/vvxke2w308-l5kagb46um.gz",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "css/adminlte.rtl#[.{fingerprint=l5kagb46um}]?.css.gz",
       "AssetKind": "All",
@@ -322,20 +322,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/css/adminlte.rtl.css",
+      "RelatedAsset": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/css/adminlte.rtl.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "8y9plbk7yb",
-      "Integrity": "YMB/uizvzx27imzi2RaJ/PMKOc7zzePBWRa4PZhKLvw=",
+      "Fingerprint": "6o8skldwqb",
+      "Integrity": "5vL1gXjDrq1Y6TBZ+OjtWtl+WvRq+9/NKkYYSIrLjQI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/css/adminlte.rtl.css"
+      "OriginalItemSpec": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/css/adminlte.rtl.css"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/scopedcss/bundle/AdminLTEKutuphane.styles.css",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/scopedcss/bundle/AdminLTEKutuphane.styles.css",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Computed",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/scopedcss/bundle/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/scopedcss/bundle/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "AdminLTEKutuphane#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -350,13 +350,13 @@
       "Integrity": "ODgU21UG1uNEha52REKbJguK6huiI3/tu98e6FXEYyg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/scopedcss/bundle/AdminLTEKutuphane.styles.css"
+      "OriginalItemSpec": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/scopedcss/bundle/AdminLTEKutuphane.styles.css"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/scopedcss/projectbundle/AdminLTEKutuphane.bundle.scp.css",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/scopedcss/projectbundle/AdminLTEKutuphane.bundle.scp.css",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Computed",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/scopedcss/projectbundle/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/scopedcss/projectbundle/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "AdminLTEKutuphane#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -371,13 +371,13 @@
       "Integrity": "ODgU21UG1uNEha52REKbJguK6huiI3/tu98e6FXEYyg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/scopedcss/projectbundle/AdminLTEKutuphane.bundle.scp.css"
+      "OriginalItemSpec": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/scopedcss/projectbundle/AdminLTEKutuphane.bundle.scp.css"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/AdminLTEFullLogo.png",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/AdminLTEFullLogo.png",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "assets/img/AdminLTEFullLogo#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -395,10 +395,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/AdminLTEFullLogo.png"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/AdminLTELogo.png",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/AdminLTELogo.png",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "assets/img/AdminLTELogo#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/AdminLTELogo.png"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/avatar.png",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/avatar.png",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "assets/img/avatar#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -437,10 +437,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/avatar.png"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/avatar2.png",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/avatar2.png",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "assets/img/avatar2#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -458,10 +458,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/avatar2.png"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/avatar3.png",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/avatar3.png",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "assets/img/avatar3#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -479,10 +479,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/avatar3.png"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/avatar4.png",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/avatar4.png",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "assets/img/avatar4#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -500,10 +500,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/avatar4.png"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/avatar5.png",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/avatar5.png",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "assets/img/avatar5#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -521,10 +521,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/avatar5.png"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/boxed-bg.jpg",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/boxed-bg.jpg",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "assets/img/boxed-bg#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -542,10 +542,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/boxed-bg.jpg"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/boxed-bg.png",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/boxed-bg.png",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "assets/img/boxed-bg#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -563,10 +563,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/boxed-bg.png"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/credit/american-express.png",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/credit/american-express.png",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "assets/img/credit/american-express#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -584,10 +584,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/credit/american-express.png"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/credit/cirrus.png",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/credit/cirrus.png",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "assets/img/credit/cirrus#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -605,10 +605,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/credit/cirrus.png"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/credit/mastercard.png",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/credit/mastercard.png",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "assets/img/credit/mastercard#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -626,10 +626,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/credit/mastercard.png"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/credit/paypal.png",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/credit/paypal.png",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "assets/img/credit/paypal#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -647,10 +647,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/credit/paypal.png"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/credit/paypal2.png",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/credit/paypal2.png",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "assets/img/credit/paypal2#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -668,10 +668,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/credit/paypal2.png"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/credit/visa.png",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/credit/visa.png",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "assets/img/credit/visa#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -689,10 +689,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/credit/visa.png"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/default-150x150.png",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/default-150x150.png",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "assets/img/default-150x150#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -710,10 +710,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/default-150x150.png"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/icons.png",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/icons.png",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "assets/img/icons#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/icons.png"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/photo1.png",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/photo1.png",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "assets/img/photo1#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -752,10 +752,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/photo1.png"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/photo2.png",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/photo2.png",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "assets/img/photo2#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -773,10 +773,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/photo2.png"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/photo3.jpg",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/photo3.jpg",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "assets/img/photo3#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -794,10 +794,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/photo3.jpg"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/photo4.jpg",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/photo4.jpg",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "assets/img/photo4#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -815,10 +815,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/photo4.jpg"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/prod-1.jpg",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/prod-1.jpg",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "assets/img/prod-1#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -836,10 +836,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/prod-1.jpg"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/prod-2.jpg",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/prod-2.jpg",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "assets/img/prod-2#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -857,10 +857,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/prod-2.jpg"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/prod-3.jpg",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/prod-3.jpg",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "assets/img/prod-3#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -878,10 +878,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/prod-3.jpg"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/prod-4.jpg",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/prod-4.jpg",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "assets/img/prod-4#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -899,10 +899,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/prod-4.jpg"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/prod-5.jpg",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/prod-5.jpg",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "assets/img/prod-5#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -920,10 +920,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/prod-5.jpg"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/user1-128x128.jpg",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/user1-128x128.jpg",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "assets/img/user1-128x128#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -941,10 +941,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/user1-128x128.jpg"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/user2-160x160.jpg",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/user2-160x160.jpg",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "assets/img/user2-160x160#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -962,10 +962,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/user2-160x160.jpg"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/user3-128x128.jpg",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/user3-128x128.jpg",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "assets/img/user3-128x128#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -983,10 +983,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/user3-128x128.jpg"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/user4-128x128.jpg",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/user4-128x128.jpg",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "assets/img/user4-128x128#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1004,10 +1004,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/user4-128x128.jpg"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/user5-128x128.jpg",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/user5-128x128.jpg",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "assets/img/user5-128x128#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1025,10 +1025,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/user5-128x128.jpg"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/user6-128x128.jpg",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/user6-128x128.jpg",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "assets/img/user6-128x128#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1046,10 +1046,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/user6-128x128.jpg"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/user7-128x128.jpg",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/user7-128x128.jpg",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "assets/img/user7-128x128#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1067,10 +1067,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/user7-128x128.jpg"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/user8-128x128.jpg",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/user8-128x128.jpg",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "assets/img/user8-128x128#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/user8-128x128.jpg"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/css/adminlte.css",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/css/adminlte.css",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "css/adminlte#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1109,10 +1109,10 @@
       "OriginalItemSpec": "wwwroot/css/adminlte.css"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/css/adminlte.css.map",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/css/adminlte.css.map",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "css/adminlte.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1130,10 +1130,10 @@
       "OriginalItemSpec": "wwwroot/css/adminlte.css.map"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/css/adminlte.min.css",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/css/adminlte.min.css",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "css/adminlte.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1151,10 +1151,10 @@
       "OriginalItemSpec": "wwwroot/css/adminlte.min.css"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/css/adminlte.min.css.map",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/css/adminlte.min.css.map",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "css/adminlte.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1172,10 +1172,10 @@
       "OriginalItemSpec": "wwwroot/css/adminlte.min.css.map"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/css/adminlte.rtl.css",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/css/adminlte.rtl.css",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "css/adminlte.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1193,10 +1193,10 @@
       "OriginalItemSpec": "wwwroot/css/adminlte.rtl.css"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/css/adminlte.rtl.css.map",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/css/adminlte.rtl.css.map",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "css/adminlte.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1214,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot/css/adminlte.rtl.css.map"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/css/adminlte.rtl.min.css",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/css/adminlte.rtl.min.css",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "css/adminlte.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1235,10 +1235,10 @@
       "OriginalItemSpec": "wwwroot/css/adminlte.rtl.min.css"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/css/adminlte.rtl.min.css.map",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/css/adminlte.rtl.min.css.map",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "css/adminlte.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1256,10 +1256,10 @@
       "OriginalItemSpec": "wwwroot/css/adminlte.rtl.min.css.map"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/favicon.ico",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/favicon.ico",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "favicon#[.{fingerprint}]?.ico",
       "AssetKind": "All",
@@ -1277,10 +1277,10 @@
       "OriginalItemSpec": "wwwroot/favicon.ico"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/js/adminlte.js",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/js/adminlte.js",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "js/adminlte#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1298,10 +1298,10 @@
       "OriginalItemSpec": "wwwroot/js/adminlte.js"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/js/adminlte.js.map",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/js/adminlte.js.map",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "js/adminlte.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1319,10 +1319,10 @@
       "OriginalItemSpec": "wwwroot/js/adminlte.js.map"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/js/adminlte.min.js",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/js/adminlte.min.js",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "js/adminlte.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1340,10 +1340,10 @@
       "OriginalItemSpec": "wwwroot/js/adminlte.min.js"
     },
     {
-      "Identity": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/js/adminlte.min.js.map",
+      "Identity": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/js/adminlte.min.js.map",
       "SourceId": "AdminLTEKutuphane",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/",
+      "ContentRoot": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/",
       "BasePath": "_content/AdminLTEKutuphane",
       "RelativePath": "js/adminlte.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1364,12 +1364,12 @@
   "Endpoints": [
     {
       "Route": "AdminLTEKutuphane.0yrv5hdzet.bundle.scp.css",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/vnm11u0le8-0yrv5hdzet.gz",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/vnm11u0le8-0yrv5hdzet.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001838235294"
+          "Quality": "0.001845018450"
         }
       ],
       "ResponseHeaders": [
@@ -1379,15 +1379,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "543"
+          "Value": "541"
         },
         {
           "Name": "ETag",
-          "Value": "\"3QkAeYSRK0jq6/Uw8RaFWNnY8akd2sYvgItn7MYF6w8=\""
+          "Value": "\"g3qHQ1UkTYsY1+Dvx3VZOSgLNs2S1RzXk81l4mGarnk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:41:05 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1427,7 +1427,7 @@
     },
     {
       "Route": "AdminLTEKutuphane.0yrv5hdzet.bundle.scp.css",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/scopedcss/projectbundle/AdminLTEKutuphane.bundle.scp.css",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/scopedcss/projectbundle/AdminLTEKutuphane.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1448,7 +1448,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:41:05 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1472,7 +1472,7 @@
     },
     {
       "Route": "AdminLTEKutuphane.0yrv5hdzet.bundle.scp.css.gz",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/vnm11u0le8-0yrv5hdzet.gz",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/vnm11u0le8-0yrv5hdzet.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1481,7 +1481,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "543"
+          "Value": "541"
         },
         {
           "Name": "Content-Type",
@@ -1489,11 +1489,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"3QkAeYSRK0jq6/Uw8RaFWNnY8akd2sYvgItn7MYF6w8=\""
+          "Value": "\"g3qHQ1UkTYsY1+Dvx3VZOSgLNs2S1RzXk81l4mGarnk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:41:05 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1519,18 +1519,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-3QkAeYSRK0jq6/Uw8RaFWNnY8akd2sYvgItn7MYF6w8="
+          "Value": "sha256-g3qHQ1UkTYsY1+Dvx3VZOSgLNs2S1RzXk81l4mGarnk="
         }
       ]
     },
     {
       "Route": "AdminLTEKutuphane.0yrv5hdzet.styles.css",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/c3ggnjfu27-0yrv5hdzet.gz",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/c3ggnjfu27-0yrv5hdzet.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001838235294"
+          "Quality": "0.001845018450"
         }
       ],
       "ResponseHeaders": [
@@ -1540,15 +1540,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "543"
+          "Value": "541"
         },
         {
           "Name": "ETag",
-          "Value": "\"3QkAeYSRK0jq6/Uw8RaFWNnY8akd2sYvgItn7MYF6w8=\""
+          "Value": "\"g3qHQ1UkTYsY1+Dvx3VZOSgLNs2S1RzXk81l4mGarnk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:41:05 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1588,7 +1588,7 @@
     },
     {
       "Route": "AdminLTEKutuphane.0yrv5hdzet.styles.css",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/scopedcss/bundle/AdminLTEKutuphane.styles.css",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/scopedcss/bundle/AdminLTEKutuphane.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1609,7 +1609,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:41:05 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1633,7 +1633,7 @@
     },
     {
       "Route": "AdminLTEKutuphane.0yrv5hdzet.styles.css.gz",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/c3ggnjfu27-0yrv5hdzet.gz",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/c3ggnjfu27-0yrv5hdzet.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1642,7 +1642,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "543"
+          "Value": "541"
         },
         {
           "Name": "Content-Type",
@@ -1650,11 +1650,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"3QkAeYSRK0jq6/Uw8RaFWNnY8akd2sYvgItn7MYF6w8=\""
+          "Value": "\"g3qHQ1UkTYsY1+Dvx3VZOSgLNs2S1RzXk81l4mGarnk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:41:05 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1680,18 +1680,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-3QkAeYSRK0jq6/Uw8RaFWNnY8akd2sYvgItn7MYF6w8="
+          "Value": "sha256-g3qHQ1UkTYsY1+Dvx3VZOSgLNs2S1RzXk81l4mGarnk="
         }
       ]
     },
     {
       "Route": "AdminLTEKutuphane.bundle.scp.css",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/vnm11u0le8-0yrv5hdzet.gz",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/vnm11u0le8-0yrv5hdzet.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001838235294"
+          "Quality": "0.001845018450"
         }
       ],
       "ResponseHeaders": [
@@ -1701,15 +1701,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "543"
+          "Value": "541"
         },
         {
           "Name": "ETag",
-          "Value": "\"3QkAeYSRK0jq6/Uw8RaFWNnY8akd2sYvgItn7MYF6w8=\""
+          "Value": "\"g3qHQ1UkTYsY1+Dvx3VZOSgLNs2S1RzXk81l4mGarnk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:41:05 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1741,7 +1741,7 @@
     },
     {
       "Route": "AdminLTEKutuphane.bundle.scp.css",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/scopedcss/projectbundle/AdminLTEKutuphane.bundle.scp.css",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/scopedcss/projectbundle/AdminLTEKutuphane.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1762,7 +1762,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:41:05 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1778,7 +1778,7 @@
     },
     {
       "Route": "AdminLTEKutuphane.bundle.scp.css.gz",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/vnm11u0le8-0yrv5hdzet.gz",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/vnm11u0le8-0yrv5hdzet.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1787,7 +1787,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "543"
+          "Value": "541"
         },
         {
           "Name": "Content-Type",
@@ -1795,11 +1795,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"3QkAeYSRK0jq6/Uw8RaFWNnY8akd2sYvgItn7MYF6w8=\""
+          "Value": "\"g3qHQ1UkTYsY1+Dvx3VZOSgLNs2S1RzXk81l4mGarnk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:41:05 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1817,18 +1817,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-3QkAeYSRK0jq6/Uw8RaFWNnY8akd2sYvgItn7MYF6w8="
+          "Value": "sha256-g3qHQ1UkTYsY1+Dvx3VZOSgLNs2S1RzXk81l4mGarnk="
         }
       ]
     },
     {
       "Route": "AdminLTEKutuphane.styles.css",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/c3ggnjfu27-0yrv5hdzet.gz",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/c3ggnjfu27-0yrv5hdzet.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001838235294"
+          "Quality": "0.001845018450"
         }
       ],
       "ResponseHeaders": [
@@ -1838,15 +1838,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "543"
+          "Value": "541"
         },
         {
           "Name": "ETag",
-          "Value": "\"3QkAeYSRK0jq6/Uw8RaFWNnY8akd2sYvgItn7MYF6w8=\""
+          "Value": "\"g3qHQ1UkTYsY1+Dvx3VZOSgLNs2S1RzXk81l4mGarnk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:41:05 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1878,7 +1878,7 @@
     },
     {
       "Route": "AdminLTEKutuphane.styles.css",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/scopedcss/bundle/AdminLTEKutuphane.styles.css",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/scopedcss/bundle/AdminLTEKutuphane.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1899,7 +1899,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:41:05 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1915,7 +1915,7 @@
     },
     {
       "Route": "AdminLTEKutuphane.styles.css.gz",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/c3ggnjfu27-0yrv5hdzet.gz",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/c3ggnjfu27-0yrv5hdzet.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1924,7 +1924,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "543"
+          "Value": "541"
         },
         {
           "Name": "Content-Type",
@@ -1932,11 +1932,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"3QkAeYSRK0jq6/Uw8RaFWNnY8akd2sYvgItn7MYF6w8=\""
+          "Value": "\"g3qHQ1UkTYsY1+Dvx3VZOSgLNs2S1RzXk81l4mGarnk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:41:05 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1954,13 +1954,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-3QkAeYSRK0jq6/Uw8RaFWNnY8akd2sYvgItn7MYF6w8="
+          "Value": "sha256-g3qHQ1UkTYsY1+Dvx3VZOSgLNs2S1RzXk81l4mGarnk="
         }
       ]
     },
     {
       "Route": "assets/img/AdminLTEFullLogo.0gtvjjsegk.png",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/AdminLTEFullLogo.png",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/AdminLTEFullLogo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1981,7 +1981,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2005,7 +2005,7 @@
     },
     {
       "Route": "assets/img/AdminLTEFullLogo.png",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/AdminLTEFullLogo.png",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/AdminLTEFullLogo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2026,7 +2026,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2042,7 +2042,7 @@
     },
     {
       "Route": "assets/img/AdminLTELogo.5xpa8ektv0.png",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/AdminLTELogo.png",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/AdminLTELogo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2063,7 +2063,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2087,7 +2087,7 @@
     },
     {
       "Route": "assets/img/AdminLTELogo.png",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/AdminLTELogo.png",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/AdminLTELogo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2108,7 +2108,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2124,7 +2124,7 @@
     },
     {
       "Route": "assets/img/avatar.cq7ak03cs5.png",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/avatar.png",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/avatar.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2145,7 +2145,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2169,7 +2169,7 @@
     },
     {
       "Route": "assets/img/avatar.png",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/avatar.png",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/avatar.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2190,7 +2190,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2206,7 +2206,7 @@
     },
     {
       "Route": "assets/img/avatar2.clb441sfpl.png",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/avatar2.png",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/avatar2.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2227,7 +2227,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2251,7 +2251,7 @@
     },
     {
       "Route": "assets/img/avatar2.png",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/avatar2.png",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/avatar2.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2272,7 +2272,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2288,7 +2288,7 @@
     },
     {
       "Route": "assets/img/avatar3.png",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/avatar3.png",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/avatar3.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2309,7 +2309,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2325,7 +2325,7 @@
     },
     {
       "Route": "assets/img/avatar3.zgk1oe2q67.png",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/avatar3.png",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/avatar3.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2346,7 +2346,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2370,7 +2370,7 @@
     },
     {
       "Route": "assets/img/avatar4.png",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/avatar4.png",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/avatar4.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2391,7 +2391,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2407,7 +2407,7 @@
     },
     {
       "Route": "assets/img/avatar4.vs5rlt9a4x.png",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/avatar4.png",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/avatar4.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2428,7 +2428,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2452,7 +2452,7 @@
     },
     {
       "Route": "assets/img/avatar5.png",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/avatar5.png",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/avatar5.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2473,7 +2473,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2489,7 +2489,7 @@
     },
     {
       "Route": "assets/img/avatar5.q1fgw26yku.png",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/avatar5.png",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/avatar5.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2510,7 +2510,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2534,7 +2534,7 @@
     },
     {
       "Route": "assets/img/boxed-bg.h242czgvr1.png",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/boxed-bg.png",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/boxed-bg.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2555,7 +2555,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2579,7 +2579,7 @@
     },
     {
       "Route": "assets/img/boxed-bg.jpg",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/boxed-bg.jpg",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/boxed-bg.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2600,7 +2600,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2616,7 +2616,7 @@
     },
     {
       "Route": "assets/img/boxed-bg.png",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/boxed-bg.png",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/boxed-bg.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2637,7 +2637,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2653,7 +2653,7 @@
     },
     {
       "Route": "assets/img/boxed-bg.sdebnp4g0a.jpg",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/boxed-bg.jpg",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/boxed-bg.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2674,7 +2674,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2698,7 +2698,7 @@
     },
     {
       "Route": "assets/img/credit/american-express.35gyy4y31i.png",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/credit/american-express.png",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/credit/american-express.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2719,7 +2719,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2743,7 +2743,7 @@
     },
     {
       "Route": "assets/img/credit/american-express.png",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/credit/american-express.png",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/credit/american-express.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2764,7 +2764,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2780,7 +2780,7 @@
     },
     {
       "Route": "assets/img/credit/cirrus.haanhu4llm.png",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/credit/cirrus.png",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/credit/cirrus.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2801,7 +2801,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2825,7 +2825,7 @@
     },
     {
       "Route": "assets/img/credit/cirrus.png",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/credit/cirrus.png",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/credit/cirrus.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2846,7 +2846,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2862,7 +2862,7 @@
     },
     {
       "Route": "assets/img/credit/mastercard.png",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/credit/mastercard.png",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/credit/mastercard.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2883,7 +2883,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2899,7 +2899,7 @@
     },
     {
       "Route": "assets/img/credit/mastercard.zxkyuexsld.png",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/credit/mastercard.png",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/credit/mastercard.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2920,7 +2920,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2944,7 +2944,7 @@
     },
     {
       "Route": "assets/img/credit/paypal.png",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/credit/paypal.png",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/credit/paypal.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2965,7 +2965,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2981,7 +2981,7 @@
     },
     {
       "Route": "assets/img/credit/paypal.yzy90cp1s8.png",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/credit/paypal.png",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/credit/paypal.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3002,7 +3002,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3026,7 +3026,7 @@
     },
     {
       "Route": "assets/img/credit/paypal2.png",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/credit/paypal2.png",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/credit/paypal2.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3047,7 +3047,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3063,7 +3063,7 @@
     },
     {
       "Route": "assets/img/credit/paypal2.r4dtqurbzx.png",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/credit/paypal2.png",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/credit/paypal2.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3084,7 +3084,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3108,7 +3108,7 @@
     },
     {
       "Route": "assets/img/credit/visa.png",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/credit/visa.png",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/credit/visa.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3129,7 +3129,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3145,7 +3145,7 @@
     },
     {
       "Route": "assets/img/credit/visa.s83m7m62mp.png",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/credit/visa.png",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/credit/visa.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3166,7 +3166,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3190,7 +3190,7 @@
     },
     {
       "Route": "assets/img/default-150x150.nv54hbhaf2.png",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/default-150x150.png",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/default-150x150.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3211,7 +3211,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3235,7 +3235,7 @@
     },
     {
       "Route": "assets/img/default-150x150.png",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/default-150x150.png",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/default-150x150.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3256,7 +3256,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3272,7 +3272,7 @@
     },
     {
       "Route": "assets/img/icons.pgzyby3kf3.png",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/icons.png",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/icons.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3293,7 +3293,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3317,7 +3317,7 @@
     },
     {
       "Route": "assets/img/icons.png",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/icons.png",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/icons.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3338,7 +3338,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3354,7 +3354,7 @@
     },
     {
       "Route": "assets/img/photo1.k1cuuvx4v0.png",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/photo1.png",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/photo1.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3375,7 +3375,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3399,7 +3399,7 @@
     },
     {
       "Route": "assets/img/photo1.png",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/photo1.png",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/photo1.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3420,7 +3420,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3436,7 +3436,7 @@
     },
     {
       "Route": "assets/img/photo2.png",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/photo2.png",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/photo2.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3457,7 +3457,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3473,7 +3473,7 @@
     },
     {
       "Route": "assets/img/photo2.qsbhi7q87u.png",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/photo2.png",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/photo2.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3494,7 +3494,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3518,7 +3518,7 @@
     },
     {
       "Route": "assets/img/photo3.1h2rg7q4y6.jpg",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/photo3.jpg",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/photo3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3539,7 +3539,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3563,7 +3563,7 @@
     },
     {
       "Route": "assets/img/photo3.jpg",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/photo3.jpg",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/photo3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3584,7 +3584,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3600,7 +3600,7 @@
     },
     {
       "Route": "assets/img/photo4.jpg",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/photo4.jpg",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/photo4.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3621,7 +3621,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3637,7 +3637,7 @@
     },
     {
       "Route": "assets/img/photo4.u4jlup4h4y.jpg",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/photo4.jpg",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/photo4.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3658,7 +3658,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3682,7 +3682,7 @@
     },
     {
       "Route": "assets/img/prod-1.jpg",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/prod-1.jpg",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/prod-1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3703,7 +3703,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3719,7 +3719,7 @@
     },
     {
       "Route": "assets/img/prod-1.wlf8jewtsx.jpg",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/prod-1.jpg",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/prod-1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3740,7 +3740,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3764,7 +3764,7 @@
     },
     {
       "Route": "assets/img/prod-2.jpg",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/prod-2.jpg",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/prod-2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3785,7 +3785,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3801,7 +3801,7 @@
     },
     {
       "Route": "assets/img/prod-2.xbsmo926fa.jpg",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/prod-2.jpg",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/prod-2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3822,7 +3822,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3846,7 +3846,7 @@
     },
     {
       "Route": "assets/img/prod-3.29xc1xt4i8.jpg",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/prod-3.jpg",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/prod-3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3867,7 +3867,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3891,7 +3891,7 @@
     },
     {
       "Route": "assets/img/prod-3.jpg",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/prod-3.jpg",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/prod-3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3912,7 +3912,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3928,7 +3928,7 @@
     },
     {
       "Route": "assets/img/prod-4.22ko3qvybp.jpg",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/prod-4.jpg",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/prod-4.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3949,7 +3949,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3973,7 +3973,7 @@
     },
     {
       "Route": "assets/img/prod-4.jpg",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/prod-4.jpg",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/prod-4.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3994,7 +3994,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4010,7 +4010,7 @@
     },
     {
       "Route": "assets/img/prod-5.jisre6nqys.jpg",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/prod-5.jpg",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/prod-5.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4031,7 +4031,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4055,7 +4055,7 @@
     },
     {
       "Route": "assets/img/prod-5.jpg",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/prod-5.jpg",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/prod-5.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4076,7 +4076,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4092,7 +4092,7 @@
     },
     {
       "Route": "assets/img/user1-128x128.gjwx06c2ao.jpg",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/user1-128x128.jpg",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/user1-128x128.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4113,7 +4113,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4137,7 +4137,7 @@
     },
     {
       "Route": "assets/img/user1-128x128.jpg",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/user1-128x128.jpg",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/user1-128x128.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4158,7 +4158,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4174,7 +4174,7 @@
     },
     {
       "Route": "assets/img/user2-160x160.jpg",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/user2-160x160.jpg",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/user2-160x160.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4195,7 +4195,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4211,7 +4211,7 @@
     },
     {
       "Route": "assets/img/user2-160x160.wycn2zoxwx.jpg",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/user2-160x160.jpg",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/user2-160x160.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4232,7 +4232,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4256,7 +4256,7 @@
     },
     {
       "Route": "assets/img/user3-128x128.jpg",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/user3-128x128.jpg",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/user3-128x128.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4277,7 +4277,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4293,7 +4293,7 @@
     },
     {
       "Route": "assets/img/user3-128x128.okr9lll0pm.jpg",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/user3-128x128.jpg",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/user3-128x128.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4314,7 +4314,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4338,7 +4338,7 @@
     },
     {
       "Route": "assets/img/user4-128x128.e0nvstqqn7.jpg",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/user4-128x128.jpg",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/user4-128x128.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4359,7 +4359,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4383,7 +4383,7 @@
     },
     {
       "Route": "assets/img/user4-128x128.jpg",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/user4-128x128.jpg",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/user4-128x128.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4404,7 +4404,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4420,7 +4420,7 @@
     },
     {
       "Route": "assets/img/user5-128x128.9y8p72my7x.jpg",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/user5-128x128.jpg",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/user5-128x128.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4441,7 +4441,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4465,7 +4465,7 @@
     },
     {
       "Route": "assets/img/user5-128x128.jpg",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/user5-128x128.jpg",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/user5-128x128.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4486,7 +4486,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4502,7 +4502,7 @@
     },
     {
       "Route": "assets/img/user6-128x128.jpg",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/user6-128x128.jpg",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/user6-128x128.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4523,7 +4523,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4539,7 +4539,7 @@
     },
     {
       "Route": "assets/img/user6-128x128.luyv40uo9o.jpg",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/user6-128x128.jpg",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/user6-128x128.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4560,7 +4560,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4584,7 +4584,7 @@
     },
     {
       "Route": "assets/img/user7-128x128.331q5m3pqo.jpg",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/user7-128x128.jpg",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/user7-128x128.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4605,7 +4605,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4629,7 +4629,7 @@
     },
     {
       "Route": "assets/img/user7-128x128.jpg",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/user7-128x128.jpg",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/user7-128x128.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4650,7 +4650,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4666,7 +4666,7 @@
     },
     {
       "Route": "assets/img/user8-128x128.jpg",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/user8-128x128.jpg",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/user8-128x128.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4687,7 +4687,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4703,7 +4703,7 @@
     },
     {
       "Route": "assets/img/user8-128x128.ki1y5lpl0h.jpg",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/assets/img/user8-128x128.jpg",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/assets/img/user8-128x128.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4724,7 +4724,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4748,12 +4748,12 @@
     },
     {
       "Route": "css/adminlte.3ti8pkgn20.css",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/enogbttox3-3ti8pkgn20.gz",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/enogbttox3-3ti8pkgn20.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000023155116"
+          "Quality": "0.000023136901"
         }
       ],
       "ResponseHeaders": [
@@ -4763,15 +4763,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "43186"
+          "Value": "43220"
         },
         {
           "Name": "ETag",
-          "Value": "\"JaROjqZRW1u87qELSfbik46i5QO+50H2phepFSe5gOI=\""
+          "Value": "\"WhFsExbWyp4MArylwAW8luiUBZE1W9vdN79+Q1fzoaE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4811,7 +4811,7 @@
     },
     {
       "Route": "css/adminlte.3ti8pkgn20.css",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/css/adminlte.css",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/css/adminlte.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4832,7 +4832,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4856,7 +4856,7 @@
     },
     {
       "Route": "css/adminlte.3ti8pkgn20.css.gz",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/enogbttox3-3ti8pkgn20.gz",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/enogbttox3-3ti8pkgn20.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4865,7 +4865,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "43186"
+          "Value": "43220"
         },
         {
           "Name": "Content-Type",
@@ -4873,11 +4873,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JaROjqZRW1u87qELSfbik46i5QO+50H2phepFSe5gOI=\""
+          "Value": "\"WhFsExbWyp4MArylwAW8luiUBZE1W9vdN79+Q1fzoaE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4903,18 +4903,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-JaROjqZRW1u87qELSfbik46i5QO+50H2phepFSe5gOI="
+          "Value": "sha256-WhFsExbWyp4MArylwAW8luiUBZE1W9vdN79+Q1fzoaE="
         }
       ]
     },
     {
       "Route": "css/adminlte.css",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/enogbttox3-3ti8pkgn20.gz",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/enogbttox3-3ti8pkgn20.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000023155116"
+          "Quality": "0.000023136901"
         }
       ],
       "ResponseHeaders": [
@@ -4924,15 +4924,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "43186"
+          "Value": "43220"
         },
         {
           "Name": "ETag",
-          "Value": "\"JaROjqZRW1u87qELSfbik46i5QO+50H2phepFSe5gOI=\""
+          "Value": "\"WhFsExbWyp4MArylwAW8luiUBZE1W9vdN79+Q1fzoaE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4964,7 +4964,7 @@
     },
     {
       "Route": "css/adminlte.css",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/css/adminlte.css",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/css/adminlte.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4985,7 +4985,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5001,12 +5001,12 @@
     },
     {
       "Route": "css/adminlte.css.3zpwalpuda.map",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/dscyqf63a7-3zpwalpuda.gz",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/dscyqf63a7-3zpwalpuda.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000007001869"
+          "Quality": "0.000007024198"
         }
       ],
       "ResponseHeaders": [
@@ -5016,15 +5016,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "142818"
+          "Value": "142364"
         },
         {
           "Name": "ETag",
-          "Value": "\"IfkPOXAKfl0AjmYfZMFKfAS79ijRoxmO6MimCpI/xCw=\""
+          "Value": "\"Qe2ZHhZpwWBR/OqTuvMF7D+FRcDN6N7wE4Re1KgOfp8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5064,7 +5064,7 @@
     },
     {
       "Route": "css/adminlte.css.3zpwalpuda.map",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/css/adminlte.css.map",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/css/adminlte.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5085,7 +5085,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5109,7 +5109,7 @@
     },
     {
       "Route": "css/adminlte.css.3zpwalpuda.map.gz",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/dscyqf63a7-3zpwalpuda.gz",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/dscyqf63a7-3zpwalpuda.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5118,7 +5118,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "142818"
+          "Value": "142364"
         },
         {
           "Name": "Content-Type",
@@ -5126,11 +5126,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"IfkPOXAKfl0AjmYfZMFKfAS79ijRoxmO6MimCpI/xCw=\""
+          "Value": "\"Qe2ZHhZpwWBR/OqTuvMF7D+FRcDN6N7wE4Re1KgOfp8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5156,13 +5156,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-IfkPOXAKfl0AjmYfZMFKfAS79ijRoxmO6MimCpI/xCw="
+          "Value": "sha256-Qe2ZHhZpwWBR/OqTuvMF7D+FRcDN6N7wE4Re1KgOfp8="
         }
       ]
     },
     {
       "Route": "css/adminlte.css.gz",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/enogbttox3-3ti8pkgn20.gz",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/enogbttox3-3ti8pkgn20.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5171,7 +5171,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "43186"
+          "Value": "43220"
         },
         {
           "Name": "Content-Type",
@@ -5179,11 +5179,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JaROjqZRW1u87qELSfbik46i5QO+50H2phepFSe5gOI=\""
+          "Value": "\"WhFsExbWyp4MArylwAW8luiUBZE1W9vdN79+Q1fzoaE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5201,18 +5201,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-JaROjqZRW1u87qELSfbik46i5QO+50H2phepFSe5gOI="
+          "Value": "sha256-WhFsExbWyp4MArylwAW8luiUBZE1W9vdN79+Q1fzoaE="
         }
       ]
     },
     {
       "Route": "css/adminlte.css.map",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/dscyqf63a7-3zpwalpuda.gz",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/dscyqf63a7-3zpwalpuda.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000007001869"
+          "Quality": "0.000007024198"
         }
       ],
       "ResponseHeaders": [
@@ -5222,15 +5222,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "142818"
+          "Value": "142364"
         },
         {
           "Name": "ETag",
-          "Value": "\"IfkPOXAKfl0AjmYfZMFKfAS79ijRoxmO6MimCpI/xCw=\""
+          "Value": "\"Qe2ZHhZpwWBR/OqTuvMF7D+FRcDN6N7wE4Re1KgOfp8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5262,7 +5262,7 @@
     },
     {
       "Route": "css/adminlte.css.map",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/css/adminlte.css.map",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/css/adminlte.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5283,7 +5283,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5299,7 +5299,7 @@
     },
     {
       "Route": "css/adminlte.css.map.gz",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/dscyqf63a7-3zpwalpuda.gz",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/dscyqf63a7-3zpwalpuda.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5308,7 +5308,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "142818"
+          "Value": "142364"
         },
         {
           "Name": "Content-Type",
@@ -5316,11 +5316,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"IfkPOXAKfl0AjmYfZMFKfAS79ijRoxmO6MimCpI/xCw=\""
+          "Value": "\"Qe2ZHhZpwWBR/OqTuvMF7D+FRcDN6N7wE4Re1KgOfp8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5338,18 +5338,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-IfkPOXAKfl0AjmYfZMFKfAS79ijRoxmO6MimCpI/xCw="
+          "Value": "sha256-Qe2ZHhZpwWBR/OqTuvMF7D+FRcDN6N7wE4Re1KgOfp8="
         }
       ]
     },
     {
       "Route": "css/adminlte.min.css",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/sxobcqfaim-gjrdkc01zn.gz",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/sxobcqfaim-gjrdkc01zn.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000024969412"
+          "Quality": "0.000025025651"
         }
       ],
       "ResponseHeaders": [
@@ -5359,15 +5359,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "40048"
+          "Value": "39958"
         },
         {
           "Name": "ETag",
-          "Value": "\"CZUXIn4Ulxol1uQ28owi54eKy+kCb0BPMW6S182UtBI=\""
+          "Value": "\"A1As0mAKYRoRmBXZnjDXkuVnk+ckogBX6IUy7GLlh78=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5399,7 +5399,7 @@
     },
     {
       "Route": "css/adminlte.min.css",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/css/adminlte.min.css",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/css/adminlte.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5420,7 +5420,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5436,7 +5436,7 @@
     },
     {
       "Route": "css/adminlte.min.css.gz",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/sxobcqfaim-gjrdkc01zn.gz",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/sxobcqfaim-gjrdkc01zn.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5445,7 +5445,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "40048"
+          "Value": "39958"
         },
         {
           "Name": "Content-Type",
@@ -5453,11 +5453,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"CZUXIn4Ulxol1uQ28owi54eKy+kCb0BPMW6S182UtBI=\""
+          "Value": "\"A1As0mAKYRoRmBXZnjDXkuVnk+ckogBX6IUy7GLlh78=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5475,18 +5475,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-CZUXIn4Ulxol1uQ28owi54eKy+kCb0BPMW6S182UtBI="
+          "Value": "sha256-A1As0mAKYRoRmBXZnjDXkuVnk+ckogBX6IUy7GLlh78="
         }
       ]
     },
     {
       "Route": "css/adminlte.min.css.map",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/iqtng8a647-nt7juh6h50.gz",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/iqtng8a647-nt7juh6h50.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000008625151"
+          "Quality": "0.000008637742"
         }
       ],
       "ResponseHeaders": [
@@ -5496,15 +5496,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "115939"
+          "Value": "115770"
         },
         {
           "Name": "ETag",
-          "Value": "\"lB/CckBZX31bYJhB3JBeoAqrsSWhVpfSE7AoDvA0tM8=\""
+          "Value": "\"mCP78GFh7yLa4UyOR0LlfNlx+mqMhJzuXrir7bxtNjk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5536,7 +5536,7 @@
     },
     {
       "Route": "css/adminlte.min.css.map",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/css/adminlte.min.css.map",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/css/adminlte.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5557,7 +5557,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5573,7 +5573,7 @@
     },
     {
       "Route": "css/adminlte.min.css.map.gz",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/iqtng8a647-nt7juh6h50.gz",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/iqtng8a647-nt7juh6h50.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5582,7 +5582,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "115939"
+          "Value": "115770"
         },
         {
           "Name": "Content-Type",
@@ -5590,11 +5590,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"lB/CckBZX31bYJhB3JBeoAqrsSWhVpfSE7AoDvA0tM8=\""
+          "Value": "\"mCP78GFh7yLa4UyOR0LlfNlx+mqMhJzuXrir7bxtNjk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5612,18 +5612,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-lB/CckBZX31bYJhB3JBeoAqrsSWhVpfSE7AoDvA0tM8="
+          "Value": "sha256-mCP78GFh7yLa4UyOR0LlfNlx+mqMhJzuXrir7bxtNjk="
         }
       ]
     },
     {
       "Route": "css/adminlte.min.css.nt7juh6h50.map",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/iqtng8a647-nt7juh6h50.gz",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/iqtng8a647-nt7juh6h50.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000008625151"
+          "Quality": "0.000008637742"
         }
       ],
       "ResponseHeaders": [
@@ -5633,15 +5633,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "115939"
+          "Value": "115770"
         },
         {
           "Name": "ETag",
-          "Value": "\"lB/CckBZX31bYJhB3JBeoAqrsSWhVpfSE7AoDvA0tM8=\""
+          "Value": "\"mCP78GFh7yLa4UyOR0LlfNlx+mqMhJzuXrir7bxtNjk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5681,7 +5681,7 @@
     },
     {
       "Route": "css/adminlte.min.css.nt7juh6h50.map",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/css/adminlte.min.css.map",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/css/adminlte.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5702,7 +5702,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5726,7 +5726,7 @@
     },
     {
       "Route": "css/adminlte.min.css.nt7juh6h50.map.gz",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/iqtng8a647-nt7juh6h50.gz",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/iqtng8a647-nt7juh6h50.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5735,7 +5735,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "115939"
+          "Value": "115770"
         },
         {
           "Name": "Content-Type",
@@ -5743,11 +5743,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"lB/CckBZX31bYJhB3JBeoAqrsSWhVpfSE7AoDvA0tM8=\""
+          "Value": "\"mCP78GFh7yLa4UyOR0LlfNlx+mqMhJzuXrir7bxtNjk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5773,18 +5773,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-lB/CckBZX31bYJhB3JBeoAqrsSWhVpfSE7AoDvA0tM8="
+          "Value": "sha256-mCP78GFh7yLa4UyOR0LlfNlx+mqMhJzuXrir7bxtNjk="
         }
       ]
     },
     {
       "Route": "css/adminlte.min.gjrdkc01zn.css",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/sxobcqfaim-gjrdkc01zn.gz",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/sxobcqfaim-gjrdkc01zn.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000024969412"
+          "Quality": "0.000025025651"
         }
       ],
       "ResponseHeaders": [
@@ -5794,15 +5794,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "40048"
+          "Value": "39958"
         },
         {
           "Name": "ETag",
-          "Value": "\"CZUXIn4Ulxol1uQ28owi54eKy+kCb0BPMW6S182UtBI=\""
+          "Value": "\"A1As0mAKYRoRmBXZnjDXkuVnk+ckogBX6IUy7GLlh78=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5842,7 +5842,7 @@
     },
     {
       "Route": "css/adminlte.min.gjrdkc01zn.css",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/css/adminlte.min.css",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/css/adminlte.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5863,7 +5863,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5887,7 +5887,7 @@
     },
     {
       "Route": "css/adminlte.min.gjrdkc01zn.css.gz",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/sxobcqfaim-gjrdkc01zn.gz",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/sxobcqfaim-gjrdkc01zn.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5896,7 +5896,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "40048"
+          "Value": "39958"
         },
         {
           "Name": "Content-Type",
@@ -5904,11 +5904,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"CZUXIn4Ulxol1uQ28owi54eKy+kCb0BPMW6S182UtBI=\""
+          "Value": "\"A1As0mAKYRoRmBXZnjDXkuVnk+ckogBX6IUy7GLlh78=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5934,18 +5934,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-CZUXIn4Ulxol1uQ28owi54eKy+kCb0BPMW6S182UtBI="
+          "Value": "sha256-A1As0mAKYRoRmBXZnjDXkuVnk+ckogBX6IUy7GLlh78="
         }
       ]
     },
     {
       "Route": "css/adminlte.rtl.css",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/vvxke2w308-l5kagb46um.gz",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/vvxke2w308-l5kagb46um.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000023242301"
+          "Quality": "0.000023222870"
         }
       ],
       "ResponseHeaders": [
@@ -5955,15 +5955,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "43024"
+          "Value": "43060"
         },
         {
           "Name": "ETag",
-          "Value": "\"YMB/uizvzx27imzi2RaJ/PMKOc7zzePBWRa4PZhKLvw=\""
+          "Value": "\"5vL1gXjDrq1Y6TBZ+OjtWtl+WvRq+9/NKkYYSIrLjQI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5995,7 +5995,7 @@
     },
     {
       "Route": "css/adminlte.rtl.css",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/css/adminlte.rtl.css",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/css/adminlte.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6016,7 +6016,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6032,12 +6032,12 @@
     },
     {
       "Route": "css/adminlte.rtl.css.a1v63x9wfv.map",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/jcpkxhz7wq-a1v63x9wfv.gz",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/jcpkxhz7wq-a1v63x9wfv.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000007004714"
+          "Quality": "0.000007025679"
         }
       ],
       "ResponseHeaders": [
@@ -6047,15 +6047,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "142760"
+          "Value": "142334"
         },
         {
           "Name": "ETag",
-          "Value": "\"vyqMRwQ4HPlCkor4U2e539b6hyAd6xXgkxdUXNV5y1A=\""
+          "Value": "\"fEFYkF2fC9cC8nJvlc5/sgMt0Z8/WdWfkkHXly/ifpY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6095,7 +6095,7 @@
     },
     {
       "Route": "css/adminlte.rtl.css.a1v63x9wfv.map",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/css/adminlte.rtl.css.map",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/css/adminlte.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6116,7 +6116,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6140,7 +6140,7 @@
     },
     {
       "Route": "css/adminlte.rtl.css.a1v63x9wfv.map.gz",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/jcpkxhz7wq-a1v63x9wfv.gz",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/jcpkxhz7wq-a1v63x9wfv.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6149,7 +6149,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "142760"
+          "Value": "142334"
         },
         {
           "Name": "Content-Type",
@@ -6157,11 +6157,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"vyqMRwQ4HPlCkor4U2e539b6hyAd6xXgkxdUXNV5y1A=\""
+          "Value": "\"fEFYkF2fC9cC8nJvlc5/sgMt0Z8/WdWfkkHXly/ifpY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6187,13 +6187,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-vyqMRwQ4HPlCkor4U2e539b6hyAd6xXgkxdUXNV5y1A="
+          "Value": "sha256-fEFYkF2fC9cC8nJvlc5/sgMt0Z8/WdWfkkHXly/ifpY="
         }
       ]
     },
     {
       "Route": "css/adminlte.rtl.css.gz",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/vvxke2w308-l5kagb46um.gz",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/vvxke2w308-l5kagb46um.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6202,7 +6202,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "43024"
+          "Value": "43060"
         },
         {
           "Name": "Content-Type",
@@ -6210,11 +6210,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YMB/uizvzx27imzi2RaJ/PMKOc7zzePBWRa4PZhKLvw=\""
+          "Value": "\"5vL1gXjDrq1Y6TBZ+OjtWtl+WvRq+9/NKkYYSIrLjQI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6232,18 +6232,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-YMB/uizvzx27imzi2RaJ/PMKOc7zzePBWRa4PZhKLvw="
+          "Value": "sha256-5vL1gXjDrq1Y6TBZ+OjtWtl+WvRq+9/NKkYYSIrLjQI="
         }
       ]
     },
     {
       "Route": "css/adminlte.rtl.css.map",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/jcpkxhz7wq-a1v63x9wfv.gz",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/jcpkxhz7wq-a1v63x9wfv.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000007004714"
+          "Quality": "0.000007025679"
         }
       ],
       "ResponseHeaders": [
@@ -6253,15 +6253,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "142760"
+          "Value": "142334"
         },
         {
           "Name": "ETag",
-          "Value": "\"vyqMRwQ4HPlCkor4U2e539b6hyAd6xXgkxdUXNV5y1A=\""
+          "Value": "\"fEFYkF2fC9cC8nJvlc5/sgMt0Z8/WdWfkkHXly/ifpY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6293,7 +6293,7 @@
     },
     {
       "Route": "css/adminlte.rtl.css.map",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/css/adminlte.rtl.css.map",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/css/adminlte.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6314,7 +6314,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6330,7 +6330,7 @@
     },
     {
       "Route": "css/adminlte.rtl.css.map.gz",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/jcpkxhz7wq-a1v63x9wfv.gz",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/jcpkxhz7wq-a1v63x9wfv.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6339,7 +6339,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "142760"
+          "Value": "142334"
         },
         {
           "Name": "Content-Type",
@@ -6347,11 +6347,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"vyqMRwQ4HPlCkor4U2e539b6hyAd6xXgkxdUXNV5y1A=\""
+          "Value": "\"fEFYkF2fC9cC8nJvlc5/sgMt0Z8/WdWfkkHXly/ifpY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6369,18 +6369,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-vyqMRwQ4HPlCkor4U2e539b6hyAd6xXgkxdUXNV5y1A="
+          "Value": "sha256-fEFYkF2fC9cC8nJvlc5/sgMt0Z8/WdWfkkHXly/ifpY="
         }
       ]
     },
     {
       "Route": "css/adminlte.rtl.l5kagb46um.css",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/vvxke2w308-l5kagb46um.gz",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/vvxke2w308-l5kagb46um.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000023242301"
+          "Quality": "0.000023222870"
         }
       ],
       "ResponseHeaders": [
@@ -6390,15 +6390,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "43024"
+          "Value": "43060"
         },
         {
           "Name": "ETag",
-          "Value": "\"YMB/uizvzx27imzi2RaJ/PMKOc7zzePBWRa4PZhKLvw=\""
+          "Value": "\"5vL1gXjDrq1Y6TBZ+OjtWtl+WvRq+9/NKkYYSIrLjQI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6438,7 +6438,7 @@
     },
     {
       "Route": "css/adminlte.rtl.l5kagb46um.css",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/css/adminlte.rtl.css",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/css/adminlte.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6459,7 +6459,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6483,7 +6483,7 @@
     },
     {
       "Route": "css/adminlte.rtl.l5kagb46um.css.gz",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/vvxke2w308-l5kagb46um.gz",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/vvxke2w308-l5kagb46um.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6492,7 +6492,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "43024"
+          "Value": "43060"
         },
         {
           "Name": "Content-Type",
@@ -6500,11 +6500,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YMB/uizvzx27imzi2RaJ/PMKOc7zzePBWRa4PZhKLvw=\""
+          "Value": "\"5vL1gXjDrq1Y6TBZ+OjtWtl+WvRq+9/NKkYYSIrLjQI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6530,18 +6530,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-YMB/uizvzx27imzi2RaJ/PMKOc7zzePBWRa4PZhKLvw="
+          "Value": "sha256-5vL1gXjDrq1Y6TBZ+OjtWtl+WvRq+9/NKkYYSIrLjQI="
         }
       ]
     },
     {
       "Route": "css/adminlte.rtl.min.css",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/5m6djxnqo0-l2ewhp8w1q.gz",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/5m6djxnqo0-l2ewhp8w1q.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000024951967"
+          "Quality": "0.000025008128"
         }
       ],
       "ResponseHeaders": [
@@ -6551,15 +6551,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "40076"
+          "Value": "39986"
         },
         {
           "Name": "ETag",
-          "Value": "\"wMNc4T1+Y2B2WJLC2ghMz/qBQXFHOOXA2H7idkiLb00=\""
+          "Value": "\"qimGFexXEm40olkbuaxqV3rQCh9wsvcv3UKi9u5R4cQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6591,7 +6591,7 @@
     },
     {
       "Route": "css/adminlte.rtl.min.css",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/css/adminlte.rtl.min.css",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/css/adminlte.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6612,7 +6612,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6628,7 +6628,7 @@
     },
     {
       "Route": "css/adminlte.rtl.min.css.gz",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/5m6djxnqo0-l2ewhp8w1q.gz",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/5m6djxnqo0-l2ewhp8w1q.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6637,7 +6637,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "40076"
+          "Value": "39986"
         },
         {
           "Name": "Content-Type",
@@ -6645,11 +6645,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"wMNc4T1+Y2B2WJLC2ghMz/qBQXFHOOXA2H7idkiLb00=\""
+          "Value": "\"qimGFexXEm40olkbuaxqV3rQCh9wsvcv3UKi9u5R4cQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6667,18 +6667,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-wMNc4T1+Y2B2WJLC2ghMz/qBQXFHOOXA2H7idkiLb00="
+          "Value": "sha256-qimGFexXEm40olkbuaxqV3rQCh9wsvcv3UKi9u5R4cQ="
         }
       ]
     },
     {
       "Route": "css/adminlte.rtl.min.css.map",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/i5hs4q9mc4-q8ls3kvgdx.gz",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/i5hs4q9mc4-q8ls3kvgdx.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000006313131"
+          "Quality": "0.000006322271"
         }
       ],
       "ResponseHeaders": [
@@ -6688,15 +6688,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "158399"
+          "Value": "158170"
         },
         {
           "Name": "ETag",
-          "Value": "\"tovqw9oaF02nww7h8VvYZ6Pc/uI7W1UQqPIE5ggQoes=\""
+          "Value": "\"8sL9N0EdWYNFGtz3eViToAB5mgL9bX2KBqQ6AhhQH6I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6728,7 +6728,7 @@
     },
     {
       "Route": "css/adminlte.rtl.min.css.map",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/css/adminlte.rtl.min.css.map",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/css/adminlte.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6749,7 +6749,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6765,7 +6765,7 @@
     },
     {
       "Route": "css/adminlte.rtl.min.css.map.gz",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/i5hs4q9mc4-q8ls3kvgdx.gz",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/i5hs4q9mc4-q8ls3kvgdx.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6774,7 +6774,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "158399"
+          "Value": "158170"
         },
         {
           "Name": "Content-Type",
@@ -6782,11 +6782,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"tovqw9oaF02nww7h8VvYZ6Pc/uI7W1UQqPIE5ggQoes=\""
+          "Value": "\"8sL9N0EdWYNFGtz3eViToAB5mgL9bX2KBqQ6AhhQH6I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6804,18 +6804,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-tovqw9oaF02nww7h8VvYZ6Pc/uI7W1UQqPIE5ggQoes="
+          "Value": "sha256-8sL9N0EdWYNFGtz3eViToAB5mgL9bX2KBqQ6AhhQH6I="
         }
       ]
     },
     {
       "Route": "css/adminlte.rtl.min.css.q8ls3kvgdx.map",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/i5hs4q9mc4-q8ls3kvgdx.gz",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/i5hs4q9mc4-q8ls3kvgdx.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000006313131"
+          "Quality": "0.000006322271"
         }
       ],
       "ResponseHeaders": [
@@ -6825,15 +6825,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "158399"
+          "Value": "158170"
         },
         {
           "Name": "ETag",
-          "Value": "\"tovqw9oaF02nww7h8VvYZ6Pc/uI7W1UQqPIE5ggQoes=\""
+          "Value": "\"8sL9N0EdWYNFGtz3eViToAB5mgL9bX2KBqQ6AhhQH6I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6873,7 +6873,7 @@
     },
     {
       "Route": "css/adminlte.rtl.min.css.q8ls3kvgdx.map",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/css/adminlte.rtl.min.css.map",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/css/adminlte.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6894,7 +6894,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6918,7 +6918,7 @@
     },
     {
       "Route": "css/adminlte.rtl.min.css.q8ls3kvgdx.map.gz",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/i5hs4q9mc4-q8ls3kvgdx.gz",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/i5hs4q9mc4-q8ls3kvgdx.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6927,7 +6927,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "158399"
+          "Value": "158170"
         },
         {
           "Name": "Content-Type",
@@ -6935,11 +6935,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"tovqw9oaF02nww7h8VvYZ6Pc/uI7W1UQqPIE5ggQoes=\""
+          "Value": "\"8sL9N0EdWYNFGtz3eViToAB5mgL9bX2KBqQ6AhhQH6I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6965,18 +6965,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-tovqw9oaF02nww7h8VvYZ6Pc/uI7W1UQqPIE5ggQoes="
+          "Value": "sha256-8sL9N0EdWYNFGtz3eViToAB5mgL9bX2KBqQ6AhhQH6I="
         }
       ]
     },
     {
       "Route": "css/adminlte.rtl.min.l2ewhp8w1q.css",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/5m6djxnqo0-l2ewhp8w1q.gz",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/5m6djxnqo0-l2ewhp8w1q.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000024951967"
+          "Quality": "0.000025008128"
         }
       ],
       "ResponseHeaders": [
@@ -6986,15 +6986,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "40076"
+          "Value": "39986"
         },
         {
           "Name": "ETag",
-          "Value": "\"wMNc4T1+Y2B2WJLC2ghMz/qBQXFHOOXA2H7idkiLb00=\""
+          "Value": "\"qimGFexXEm40olkbuaxqV3rQCh9wsvcv3UKi9u5R4cQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7034,7 +7034,7 @@
     },
     {
       "Route": "css/adminlte.rtl.min.l2ewhp8w1q.css",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/css/adminlte.rtl.min.css",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/css/adminlte.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7055,7 +7055,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7079,7 +7079,7 @@
     },
     {
       "Route": "css/adminlte.rtl.min.l2ewhp8w1q.css.gz",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/5m6djxnqo0-l2ewhp8w1q.gz",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/5m6djxnqo0-l2ewhp8w1q.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7088,7 +7088,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "40076"
+          "Value": "39986"
         },
         {
           "Name": "Content-Type",
@@ -7096,11 +7096,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"wMNc4T1+Y2B2WJLC2ghMz/qBQXFHOOXA2H7idkiLb00=\""
+          "Value": "\"qimGFexXEm40olkbuaxqV3rQCh9wsvcv3UKi9u5R4cQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7126,18 +7126,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-wMNc4T1+Y2B2WJLC2ghMz/qBQXFHOOXA2H7idkiLb00="
+          "Value": "sha256-qimGFexXEm40olkbuaxqV3rQCh9wsvcv3UKi9u5R4cQ="
         }
       ]
     },
     {
       "Route": "favicon.61n19gt1b8.ico",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/05yrzoi9uv-61n19gt1b8.gz",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/05yrzoi9uv-61n19gt1b8.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000405022276"
+          "Quality": "0.000405515004"
         }
       ],
       "ResponseHeaders": [
@@ -7147,15 +7147,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2468"
+          "Value": "2465"
         },
         {
           "Name": "ETag",
-          "Value": "\"tOy5kS1PTkjkEg7bjV8bJa0VpoEZJUHnbqYmm1YyhMg=\""
+          "Value": "\"RvZiU7N9wIvFBRUw5m2hD/ucz7CYe+7tCebSzxwrABk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:08:42 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7195,7 +7195,7 @@
     },
     {
       "Route": "favicon.61n19gt1b8.ico",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/favicon.ico",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7216,7 +7216,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:08:42 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7240,7 +7240,7 @@
     },
     {
       "Route": "favicon.61n19gt1b8.ico.gz",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/05yrzoi9uv-61n19gt1b8.gz",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/05yrzoi9uv-61n19gt1b8.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7249,7 +7249,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2468"
+          "Value": "2465"
         },
         {
           "Name": "Content-Type",
@@ -7257,11 +7257,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"tOy5kS1PTkjkEg7bjV8bJa0VpoEZJUHnbqYmm1YyhMg=\""
+          "Value": "\"RvZiU7N9wIvFBRUw5m2hD/ucz7CYe+7tCebSzxwrABk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:08:42 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7287,18 +7287,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-tOy5kS1PTkjkEg7bjV8bJa0VpoEZJUHnbqYmm1YyhMg="
+          "Value": "sha256-RvZiU7N9wIvFBRUw5m2hD/ucz7CYe+7tCebSzxwrABk="
         }
       ]
     },
     {
       "Route": "favicon.ico",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/05yrzoi9uv-61n19gt1b8.gz",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/05yrzoi9uv-61n19gt1b8.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000405022276"
+          "Quality": "0.000405515004"
         }
       ],
       "ResponseHeaders": [
@@ -7308,15 +7308,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2468"
+          "Value": "2465"
         },
         {
           "Name": "ETag",
-          "Value": "\"tOy5kS1PTkjkEg7bjV8bJa0VpoEZJUHnbqYmm1YyhMg=\""
+          "Value": "\"RvZiU7N9wIvFBRUw5m2hD/ucz7CYe+7tCebSzxwrABk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:08:42 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7348,7 +7348,7 @@
     },
     {
       "Route": "favicon.ico",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/favicon.ico",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7369,7 +7369,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:08:42 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7385,7 +7385,7 @@
     },
     {
       "Route": "favicon.ico.gz",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/05yrzoi9uv-61n19gt1b8.gz",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/05yrzoi9uv-61n19gt1b8.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7394,7 +7394,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2468"
+          "Value": "2465"
         },
         {
           "Name": "Content-Type",
@@ -7402,11 +7402,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"tOy5kS1PTkjkEg7bjV8bJa0VpoEZJUHnbqYmm1YyhMg=\""
+          "Value": "\"RvZiU7N9wIvFBRUw5m2hD/ucz7CYe+7tCebSzxwrABk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:08:42 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7424,18 +7424,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-tOy5kS1PTkjkEg7bjV8bJa0VpoEZJUHnbqYmm1YyhMg="
+          "Value": "sha256-RvZiU7N9wIvFBRUw5m2hD/ucz7CYe+7tCebSzxwrABk="
         }
       ]
     },
     {
       "Route": "js/adminlte.js",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/atk26iq4xh-s5dfy8cuvy.gz",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/atk26iq4xh-s5dfy8cuvy.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000224567707"
+          "Quality": "0.000222271616"
         }
       ],
       "ResponseHeaders": [
@@ -7445,15 +7445,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4452"
+          "Value": "4498"
         },
         {
           "Name": "ETag",
-          "Value": "\"4lvKteK93a1lecMnfrXlhl+7FV/Nydndnl4K00BguEA=\""
+          "Value": "\"vONG879QTvbrBiRMXV6QImlAdxSifxggShmv2w+UzEQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7485,7 +7485,7 @@
     },
     {
       "Route": "js/adminlte.js",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/js/adminlte.js",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/js/adminlte.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7506,7 +7506,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7522,12 +7522,12 @@
     },
     {
       "Route": "js/adminlte.js.ddky5r22iq.map",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/q47h16oz27-ddky5r22iq.gz",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/q47h16oz27-ddky5r22iq.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000130395097"
+          "Quality": "0.000129533679"
         }
       ],
       "ResponseHeaders": [
@@ -7537,15 +7537,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7668"
+          "Value": "7719"
         },
         {
           "Name": "ETag",
-          "Value": "\"6IBAQc8lMgOu4SC5VK/uBEPrWzxdvk7tZGpT2jKI6wc=\""
+          "Value": "\"ZE8Oz64eYc1uFdCkMb+Rfg5ZosXrKMGy2AFE7mXtq3A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7585,7 +7585,7 @@
     },
     {
       "Route": "js/adminlte.js.ddky5r22iq.map",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/js/adminlte.js.map",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/js/adminlte.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7606,7 +7606,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7630,7 +7630,7 @@
     },
     {
       "Route": "js/adminlte.js.ddky5r22iq.map.gz",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/q47h16oz27-ddky5r22iq.gz",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/q47h16oz27-ddky5r22iq.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7639,7 +7639,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7668"
+          "Value": "7719"
         },
         {
           "Name": "Content-Type",
@@ -7647,11 +7647,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"6IBAQc8lMgOu4SC5VK/uBEPrWzxdvk7tZGpT2jKI6wc=\""
+          "Value": "\"ZE8Oz64eYc1uFdCkMb+Rfg5ZosXrKMGy2AFE7mXtq3A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7677,13 +7677,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-6IBAQc8lMgOu4SC5VK/uBEPrWzxdvk7tZGpT2jKI6wc="
+          "Value": "sha256-ZE8Oz64eYc1uFdCkMb+Rfg5ZosXrKMGy2AFE7mXtq3A="
         }
       ]
     },
     {
       "Route": "js/adminlte.js.gz",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/atk26iq4xh-s5dfy8cuvy.gz",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/atk26iq4xh-s5dfy8cuvy.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7692,7 +7692,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4452"
+          "Value": "4498"
         },
         {
           "Name": "Content-Type",
@@ -7700,11 +7700,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"4lvKteK93a1lecMnfrXlhl+7FV/Nydndnl4K00BguEA=\""
+          "Value": "\"vONG879QTvbrBiRMXV6QImlAdxSifxggShmv2w+UzEQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7722,18 +7722,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-4lvKteK93a1lecMnfrXlhl+7FV/Nydndnl4K00BguEA="
+          "Value": "sha256-vONG879QTvbrBiRMXV6QImlAdxSifxggShmv2w+UzEQ="
         }
       ]
     },
     {
       "Route": "js/adminlte.js.map",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/q47h16oz27-ddky5r22iq.gz",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/q47h16oz27-ddky5r22iq.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000130395097"
+          "Quality": "0.000129533679"
         }
       ],
       "ResponseHeaders": [
@@ -7743,15 +7743,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7668"
+          "Value": "7719"
         },
         {
           "Name": "ETag",
-          "Value": "\"6IBAQc8lMgOu4SC5VK/uBEPrWzxdvk7tZGpT2jKI6wc=\""
+          "Value": "\"ZE8Oz64eYc1uFdCkMb+Rfg5ZosXrKMGy2AFE7mXtq3A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7783,7 +7783,7 @@
     },
     {
       "Route": "js/adminlte.js.map",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/js/adminlte.js.map",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/js/adminlte.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7804,7 +7804,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7820,7 +7820,7 @@
     },
     {
       "Route": "js/adminlte.js.map.gz",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/q47h16oz27-ddky5r22iq.gz",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/q47h16oz27-ddky5r22iq.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7829,7 +7829,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7668"
+          "Value": "7719"
         },
         {
           "Name": "Content-Type",
@@ -7837,11 +7837,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"6IBAQc8lMgOu4SC5VK/uBEPrWzxdvk7tZGpT2jKI6wc=\""
+          "Value": "\"ZE8Oz64eYc1uFdCkMb+Rfg5ZosXrKMGy2AFE7mXtq3A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7859,18 +7859,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-6IBAQc8lMgOu4SC5VK/uBEPrWzxdvk7tZGpT2jKI6wc="
+          "Value": "sha256-ZE8Oz64eYc1uFdCkMb+Rfg5ZosXrKMGy2AFE7mXtq3A="
         }
       ]
     },
     {
       "Route": "js/adminlte.min.js",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/5s91qv1jtk-sc6ou6m5p0.gz",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/5s91qv1jtk-sc6ou6m5p0.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000350140056"
+          "Quality": "0.000350508237"
         }
       ],
       "ResponseHeaders": [
@@ -7880,15 +7880,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2855"
+          "Value": "2852"
         },
         {
           "Name": "ETag",
-          "Value": "\"AdW/hb7wPPb29IvP2vklxjeDxvPYno7N8fZrhpk8PWI=\""
+          "Value": "\"rSPSu40KbtSj1eeZcqz1FpoMV+f5SgAaDy9ophzuJ5M=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7920,7 +7920,7 @@
     },
     {
       "Route": "js/adminlte.min.js",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/js/adminlte.min.js",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/js/adminlte.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7941,7 +7941,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7957,12 +7957,12 @@
     },
     {
       "Route": "js/adminlte.min.js.3xv8oehij3.map",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/prcbvd94ok-3xv8oehij3.gz",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/prcbvd94ok-3xv8oehij3.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000124517495"
+          "Quality": "0.000124734938"
         }
       ],
       "ResponseHeaders": [
@@ -7972,15 +7972,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8030"
+          "Value": "8016"
         },
         {
           "Name": "ETag",
-          "Value": "\"7sfQOO0AUgOQWYt1HpuZ4JdBkXkoLiNm+r+O22e8uGQ=\""
+          "Value": "\"eKhYFIGW74kns+87l4+9Oh1owedr4lIKQzD+t4DJbrI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8020,7 +8020,7 @@
     },
     {
       "Route": "js/adminlte.min.js.3xv8oehij3.map",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/js/adminlte.min.js.map",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/js/adminlte.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8041,7 +8041,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8065,7 +8065,7 @@
     },
     {
       "Route": "js/adminlte.min.js.3xv8oehij3.map.gz",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/prcbvd94ok-3xv8oehij3.gz",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/prcbvd94ok-3xv8oehij3.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8074,7 +8074,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8030"
+          "Value": "8016"
         },
         {
           "Name": "Content-Type",
@@ -8082,11 +8082,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"7sfQOO0AUgOQWYt1HpuZ4JdBkXkoLiNm+r+O22e8uGQ=\""
+          "Value": "\"eKhYFIGW74kns+87l4+9Oh1owedr4lIKQzD+t4DJbrI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8112,13 +8112,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-7sfQOO0AUgOQWYt1HpuZ4JdBkXkoLiNm+r+O22e8uGQ="
+          "Value": "sha256-eKhYFIGW74kns+87l4+9Oh1owedr4lIKQzD+t4DJbrI="
         }
       ]
     },
     {
       "Route": "js/adminlte.min.js.gz",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/5s91qv1jtk-sc6ou6m5p0.gz",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/5s91qv1jtk-sc6ou6m5p0.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8127,7 +8127,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2855"
+          "Value": "2852"
         },
         {
           "Name": "Content-Type",
@@ -8135,11 +8135,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"AdW/hb7wPPb29IvP2vklxjeDxvPYno7N8fZrhpk8PWI=\""
+          "Value": "\"rSPSu40KbtSj1eeZcqz1FpoMV+f5SgAaDy9ophzuJ5M=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8157,18 +8157,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-AdW/hb7wPPb29IvP2vklxjeDxvPYno7N8fZrhpk8PWI="
+          "Value": "sha256-rSPSu40KbtSj1eeZcqz1FpoMV+f5SgAaDy9ophzuJ5M="
         }
       ]
     },
     {
       "Route": "js/adminlte.min.js.map",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/prcbvd94ok-3xv8oehij3.gz",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/prcbvd94ok-3xv8oehij3.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000124517495"
+          "Quality": "0.000124734938"
         }
       ],
       "ResponseHeaders": [
@@ -8178,15 +8178,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8030"
+          "Value": "8016"
         },
         {
           "Name": "ETag",
-          "Value": "\"7sfQOO0AUgOQWYt1HpuZ4JdBkXkoLiNm+r+O22e8uGQ=\""
+          "Value": "\"eKhYFIGW74kns+87l4+9Oh1owedr4lIKQzD+t4DJbrI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8218,7 +8218,7 @@
     },
     {
       "Route": "js/adminlte.min.js.map",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/js/adminlte.min.js.map",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/js/adminlte.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8239,7 +8239,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8255,7 +8255,7 @@
     },
     {
       "Route": "js/adminlte.min.js.map.gz",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/prcbvd94ok-3xv8oehij3.gz",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/prcbvd94ok-3xv8oehij3.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8264,7 +8264,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8030"
+          "Value": "8016"
         },
         {
           "Name": "Content-Type",
@@ -8272,11 +8272,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"7sfQOO0AUgOQWYt1HpuZ4JdBkXkoLiNm+r+O22e8uGQ=\""
+          "Value": "\"eKhYFIGW74kns+87l4+9Oh1owedr4lIKQzD+t4DJbrI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8294,18 +8294,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-7sfQOO0AUgOQWYt1HpuZ4JdBkXkoLiNm+r+O22e8uGQ="
+          "Value": "sha256-eKhYFIGW74kns+87l4+9Oh1owedr4lIKQzD+t4DJbrI="
         }
       ]
     },
     {
       "Route": "js/adminlte.min.sc6ou6m5p0.js",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/5s91qv1jtk-sc6ou6m5p0.gz",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/5s91qv1jtk-sc6ou6m5p0.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000350140056"
+          "Quality": "0.000350508237"
         }
       ],
       "ResponseHeaders": [
@@ -8315,15 +8315,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2855"
+          "Value": "2852"
         },
         {
           "Name": "ETag",
-          "Value": "\"AdW/hb7wPPb29IvP2vklxjeDxvPYno7N8fZrhpk8PWI=\""
+          "Value": "\"rSPSu40KbtSj1eeZcqz1FpoMV+f5SgAaDy9ophzuJ5M=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8363,7 +8363,7 @@
     },
     {
       "Route": "js/adminlte.min.sc6ou6m5p0.js",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/js/adminlte.min.js",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/js/adminlte.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8384,7 +8384,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8408,7 +8408,7 @@
     },
     {
       "Route": "js/adminlte.min.sc6ou6m5p0.js.gz",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/5s91qv1jtk-sc6ou6m5p0.gz",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/5s91qv1jtk-sc6ou6m5p0.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8417,7 +8417,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2855"
+          "Value": "2852"
         },
         {
           "Name": "Content-Type",
@@ -8425,11 +8425,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"AdW/hb7wPPb29IvP2vklxjeDxvPYno7N8fZrhpk8PWI=\""
+          "Value": "\"rSPSu40KbtSj1eeZcqz1FpoMV+f5SgAaDy9ophzuJ5M=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8455,18 +8455,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-AdW/hb7wPPb29IvP2vklxjeDxvPYno7N8fZrhpk8PWI="
+          "Value": "sha256-rSPSu40KbtSj1eeZcqz1FpoMV+f5SgAaDy9ophzuJ5M="
         }
       ]
     },
     {
       "Route": "js/adminlte.s5dfy8cuvy.js",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/atk26iq4xh-s5dfy8cuvy.gz",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/atk26iq4xh-s5dfy8cuvy.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000224567707"
+          "Quality": "0.000222271616"
         }
       ],
       "ResponseHeaders": [
@@ -8476,15 +8476,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4452"
+          "Value": "4498"
         },
         {
           "Name": "ETag",
-          "Value": "\"4lvKteK93a1lecMnfrXlhl+7FV/Nydndnl4K00BguEA=\""
+          "Value": "\"vONG879QTvbrBiRMXV6QImlAdxSifxggShmv2w+UzEQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8524,7 +8524,7 @@
     },
     {
       "Route": "js/adminlte.s5dfy8cuvy.js",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/wwwroot/js/adminlte.js",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/wwwroot/js/adminlte.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8545,7 +8545,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8569,7 +8569,7 @@
     },
     {
       "Route": "js/adminlte.s5dfy8cuvy.js.gz",
-      "AssetFile": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/atk26iq4xh-s5dfy8cuvy.gz",
+      "AssetFile": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/compressed/atk26iq4xh-s5dfy8cuvy.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8578,7 +8578,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4452"
+          "Value": "4498"
         },
         {
           "Name": "Content-Type",
@@ -8586,11 +8586,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"4lvKteK93a1lecMnfrXlhl+7FV/Nydndnl4K00BguEA=\""
+          "Value": "\"vONG879QTvbrBiRMXV6QImlAdxSifxggShmv2w+UzEQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:53:34 GMT"
+          "Value": "Wed, 23 Apr 2025 01:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8616,7 +8616,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-4lvKteK93a1lecMnfrXlhl+7FV/Nydndnl4K00BguEA="
+          "Value": "sha256-vONG879QTvbrBiRMXV6QImlAdxSifxggShmv2w+UzEQ="
         }
       ]
     }

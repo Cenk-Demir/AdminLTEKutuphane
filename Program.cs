@@ -1,29 +1,49 @@
-var builder = WebApplication.CreateBuilder(args);
+using AdminLTEKutuphane.Services;  // FirestoreService sınıfını kullanabilmek için ekledik
 
-// Add services to the container.
-builder.Services.AddControllersWithViews();
-
-var app = builder.Build();
-
-// Configure the HTTP request pipeline.
-if (!app.Environment.IsDevelopment())
+public class Program
 {
-    app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-    app.UseHsts();
+    public static void Main(string[] args)
+    {
+        // WebApplication builder'ı oluşturuyoruz.
+        var builder = WebApplication.CreateBuilder(args);
+
+        // FirestoreService sınıfını DI ile ekliyoruz
+        builder.Services.AddSingleton<FirestoreService>();
+
+        // Uygulama oluşturuluyor
+        var app = builder.Build();
+
+        // Basit bir test endpoint'i
+        app.MapGet("/", () => "Hello Firestore!");
+
+        // Firestore ile veri eklemek için bir test route'u ekliyoruz
+        app.MapPost("/add-to-firestore", async (FirestoreService firestoreService) =>
+        {
+            // Firestore'a veri eklemek için örnek veri
+            var data = new Dictionary<string, object>
+            {
+                { "name", "John Doe" },
+                { "email", "john.doe@example.com" },
+                { "createdAt", DateTime.UtcNow }
+            };
+
+            // FirestoreService kullanarak veriyi Firestore'a ekliyoruz
+            await firestoreService.AddDocumentAsync("users", "user1", data);
+            return Results.Ok("Document added successfully!");
+        });
+
+        // Firestore'dan veri almak için bir test route'u ekliyoruz
+        app.MapGet("/get-from-firestore/{id}", async (string id, FirestoreService firestoreService) =>
+        {
+            var doc = await firestoreService.GetDocumentAsync("users", id);
+            if (doc.Exists)
+            {
+                return Results.Ok(doc.ToDictionary());
+            }
+            return Results.NotFound("Document not found.");
+        });
+
+        // Uygulama başlatılıyor
+        app.Run();
+    }
 }
-
-app.UseHttpsRedirection();
-app.UseRouting();
-
-app.UseAuthorization();
-
-app.MapStaticAssets();
-
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}")
-    .WithStaticAssets();
-
-
-app.Run();

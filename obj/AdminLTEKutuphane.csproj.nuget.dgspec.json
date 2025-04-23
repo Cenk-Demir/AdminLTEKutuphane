@@ -1,25 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/AdminLTEKutuphane.csproj": {}
+    "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/AdminLTEKutuphane.csproj": {}
   },
   "projects": {
-    "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/AdminLTEKutuphane.csproj": {
+    "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/AdminLTEKutuphane.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/AdminLTEKutuphane.csproj",
+        "projectUniqueName": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/AdminLTEKutuphane.csproj",
         "projectName": "AdminLTEKutuphane",
-        "projectPath": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/AdminLTEKutuphane.csproj",
-        "packagesPath": "/home/muzaffer206/.nuget/packages/",
-        "outputPath": "/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/",
+        "projectPath": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/AdminLTEKutuphane.csproj",
+        "packagesPath": "/home/user/.nuget/packages/",
+        "outputPath": "/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/muzaffer206/.nuget/NuGet/NuGet.Config"
+          "/home/user/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "/usr/lib64/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,11 +39,25 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "FirebaseAdmin": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Google.Apis.Auth": {
+              "target": "Package",
+              "version": "[1.69.0, )"
+            },
+            "Google.Cloud.Firestore": {
+              "target": "Package",
+              "version": "[3.10.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -62,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/9.0.104/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
