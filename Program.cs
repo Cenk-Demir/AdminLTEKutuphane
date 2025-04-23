@@ -1,49 +1,38 @@
-using AdminLTEKutuphane.Services;  // FirestoreService sınıfını kullanabilmek için ekledik
+using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Configuration;
+using AdminLTEKutuphane.Services;
 
-public class Program
+var builder = WebApplication.CreateBuilder(args);
+
+// Firebase ayarlarını ve diğer servisleri yapılandırma
+builder.Services.AddSingleton<FirestoreService>();
+
+// MVC yapısını ekleyin
+builder.Services.AddControllersWithViews();
+
+var app = builder.Build();
+
+// Middleware konfigürasyonları
+if (app.Environment.IsDevelopment())
 {
-    public static void Main(string[] args)
-    {
-        // WebApplication builder'ı oluşturuyoruz.
-        var builder = WebApplication.CreateBuilder(args);
-
-        // FirestoreService sınıfını DI ile ekliyoruz
-        builder.Services.AddSingleton<FirestoreService>();
-
-        // Uygulama oluşturuluyor
-        var app = builder.Build();
-
-        // Basit bir test endpoint'i
-        app.MapGet("/", () => "Hello Firestore!");
-
-        // Firestore ile veri eklemek için bir test route'u ekliyoruz
-        app.MapPost("/add-to-firestore", async (FirestoreService firestoreService) =>
-        {
-            // Firestore'a veri eklemek için örnek veri
-            var data = new Dictionary<string, object>
-            {
-                { "name", "John Doe" },
-                { "email", "john.doe@example.com" },
-                { "createdAt", DateTime.UtcNow }
-            };
-
-            // FirestoreService kullanarak veriyi Firestore'a ekliyoruz
-            await firestoreService.AddDocumentAsync("users", "user1", data);
-            return Results.Ok("Document added successfully!");
-        });
-
-        // Firestore'dan veri almak için bir test route'u ekliyoruz
-        app.MapGet("/get-from-firestore/{id}", async (string id, FirestoreService firestoreService) =>
-        {
-            var doc = await firestoreService.GetDocumentAsync("users", id);
-            if (doc.Exists)
-            {
-                return Results.Ok(doc.ToDictionary());
-            }
-            return Results.NotFound("Document not found.");
-        });
-
-        // Uygulama başlatılıyor
-        app.Run();
-    }
+    app.UseDeveloperExceptionPage();
 }
+else
+{
+    app.UseExceptionHandler("/Home/Error");
+    app.UseHsts();
+}
+
+app.UseHttpsRedirection();
+app.UseStaticFiles();
+app.UseRouting();
+
+app.UseAuthorization();
+
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Home}/{action=Index}/{id?}");
+
+app.Run();

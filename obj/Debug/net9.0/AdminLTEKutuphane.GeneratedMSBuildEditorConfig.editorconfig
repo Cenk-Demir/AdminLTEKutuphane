@@ -20,6 +20,14 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
+[/home/user/Belgeler/vs code proje/AdminLTEKutuphane/Views/Firestore/AddBook.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmlyZXN0b3JlL0FkZEJvb2suY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/user/Belgeler/vs code proje/AdminLTEKutuphane/Views/Firestore/GetBooks.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmlyZXN0b3JlL0dldEJvb2tzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/user/Belgeler/vs code proje/AdminLTEKutuphane/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

@@ -1,54 +1,58 @@
-using AdminLTEKutuphane.Services;
 using Microsoft.AspNetCore.Mvc;
-using Google.Cloud.Firestore;
+using AdminLTEKutuphane.Services;
+using AdminLTEKutuphane.Models;
 using System.Threading.Tasks;
+using System.Collections.Generic;
 
 namespace AdminLTEKutuphane.Controllers
 {
-    [ApiController]
-    [Route("api/[controller]")]
-    public class FirestoreController : ControllerBase
+    public class FirestoreController : Controller
     {
         private readonly FirestoreService _firestoreService;
 
-        // FirestoreService'ı DI ile alıyoruz
         public FirestoreController(FirestoreService firestoreService)
         {
             _firestoreService = firestoreService;
         }
 
-        // Firestore'a veri eklemek için bir POST metodu
-        [HttpPost("add")]
-        public async Task<IActionResult> AddDocument([FromBody] Dictionary<string, object> data)
+        // Kitapları listele
+        public async Task<IActionResult> BookList()
         {
-            // ID'nin Firestore'da benzersiz olması için dinamik şekilde id oluşturabiliriz, burada "user1" örnek olarak kullanıldı.
-            var documentId = "user1";
-            
-            // Firestore'a veri ekliyoruz
-            await _firestoreService.AddDocumentAsync("users", documentId, data);
-            
-            return Ok("Document added successfully!");
+            var books = await _firestoreService.GetBooksAsync();
+            return View(books);
         }
 
-        // Firestore'dan veri almak için bir GET metodu
-        [HttpGet("get/{id}")]
-        public async Task<IActionResult> GetDocument(string id)
+        // Kitap ekleme sayfası
+        [HttpGet]
+        public IActionResult AddBook()
         {
-            // Firestore'dan belgeyi çekiyoruz
-            var doc = await _firestoreService.GetDocumentAsync("users", id);
+            return View();
+        }
 
-            // Belge mevcutsa, veriyi döndürüyoruz
-            if (doc.Exists)
+        // Kitap ekleme işlemi
+        [HttpPost]
+        public async Task<IActionResult> AddBook(Book book)
+        {
+            if (ModelState.IsValid)
             {
-                return Ok(doc.ToDictionary());
+                await _firestoreService.AddBookAsync(book);
+                return RedirectToAction("BookList");
             }
+            return View(book);
+        }
 
-            // Belge bulunamazsa hata döndürüyoruz
-            return NotFound("Document not found.");
+        // Kullanıcıları listele
+        public async Task<IActionResult> UserList()
+        {
+            var users = await _firestoreService.GetUsersAsync();
+            return View(users);
+        }
+
+        // Ödünç kitapları listele
+        public async Task<IActionResult> BorrowedBooks()
+        {
+            var borrowedBooks = await _firestoreService.GetBorrowedBooksAsync();
+            return View(borrowedBooks);
         }
     }
 }
-// Compare this snippet from Services/FirestoreService.cs:
-// using FirebaseAdmin;
-// using Google.Apis.Auth.OAuth2;
-// using Google.Cloud.Firestore;

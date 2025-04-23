@@ -1,31 +1,24 @@
-using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using AdminLTEKutuphane.Models;
+using Microsoft.Extensions.Configuration;
+using AdminLTEKutuphane.Services;  // FirestoreService'i içeren namespace
 
-namespace AdminLTEKutuphane.Controllers;
-
-public class HomeController : Controller
+namespace AdminLTEKutuphane.Controllers
 {
-    private readonly ILogger<HomeController> _logger;
-
-    public HomeController(ILogger<HomeController> logger)
+    public class HomeController : Controller
     {
-        _logger = logger;
-    }
+        private readonly FirestoreService _firestoreService;
 
-    public IActionResult Index()
-    {
-        return View();
-    }
+        public HomeController(FirestoreService firestoreService, IConfiguration configuration)
+        {
+            _firestoreService = firestoreService;
+            // IConfiguration'ı FirestoreService constructor'ına geçiriyoruz
+            _firestoreService = new FirestoreService(configuration);
+        }
 
-    public IActionResult Privacy()
-    {
-        return View();
-    }
-
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
-    {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        public IActionResult Index()
+        {
+            // Burada FirestoreService kullanabilirsiniz
+            return View();
+        }
     }
 }

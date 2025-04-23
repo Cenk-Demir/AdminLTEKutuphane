@@ -1,8 +1,63 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Dashboard";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-lg-3 col-6">
+                <div class="small-box bg-info">
+                    <div class="inner">
+                        <h3>@ViewBag.BookCount</h3>
+                        <p>Kitap Sayısı</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <a href="#" class="small-box-footer">Daha fazla bilgi <i class="fas fa-arrow-circle-right"></i></a>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-6">
+                <div class="small-box bg-success">
+                    <div class="inner">
+                        <h3>@ViewBag.UserCount</h3>
+                        <p>Kullanıcı Sayısı</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <a href="#" class="small-box-footer">Daha fazla bilgi <i class="fas fa-arrow-circle-right"></i></a>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-6">
+                <div class="small-box bg-warning">
+                    <div class="inner">
+                        <h3>@ViewBag.BorrowedBookCount</h3>
+                        <p>Ödünç Alınan Kitaplar</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fas fa-book-reader"></i>
+                    </div>
+                    <a href="#" class="small-box-footer">Daha fazla bilgi <i class="fas fa-arrow-circle-right"></i></a>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-6">
+                <div class="small-box bg-danger">
+                    <div class="inner">
+                        <h3>@ViewBag.ActiveTransactionCount</h3>
+                        <p>Aktif İşlemler</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fas fa-exchange-alt"></i>
+                    </div>
+                    <a href="#" class="small-box-footer">Daha fazla bilgi <i class="fas fa-arrow-circle-right"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>

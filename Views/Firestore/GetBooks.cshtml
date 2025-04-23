@@ -1,0 +1,23 @@
+@model List<Dictionary<string, object>>
+
+<h2>Kitap Listesi</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Kitap Adı</th>
+            <th>Yazar</th>
+            <th>Yayın Yılı</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var book in Model)
+        {
+            <tr>
+                <td>@book["title"]</td>
+                <td>@book["author"]</td>
+                <td>@book["publishYear"]</td>
+            </tr>
+        }
+    </tbody>
+</table>
