@@ -1,0 +1,33 @@
+@model AdminLTEKutuphane.Models.User
+@{
+    ViewData["Title"] = "Kullanıcı Sil";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <h2>Kullanıcı Sil</h2>
+    <hr />
+    <div class="alert alert-warning">
+        <strong>Dikkat!</strong> Bu kullanıcıyı silmek istediğinizden emin misiniz?
+    </div>
+
+    <dl class="row">
+        <dt class="col-sm-3">Ad</dt>
+        <dd class="col-sm-9">@Model.FirstName</dd>
+
+        <dt class="col-sm-3">Soyad</dt>
+        <dd class="col-sm-9">@Model.LastName</dd>
+
+        <dt class="col-sm-3">E-Posta</dt>
+        <dd class="col-sm-9">@Model.Email</dd>
+
+        <dt class="col-sm-3">Rol</dt>
+        <dd class="col-sm-9">@Model.Role</dd>
+    </dl>
+
+    <form asp-action="DeleteConfirmed" method="post">
+        <input type="hidden" asp-for="Id" />
+        <button type="submit" class="btn btn-danger">Evet, Sil</button>
+        <a asp-action="Index" class="btn btn-secondary">İptal</a>
+    </form>
+</div>
