@@ -11,7 +11,16 @@
 </div>
 
 <div class="container-fluid mt-3">
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger">
+            @TempData["Error"]
+        </div>
+    }
+
     <form asp-action="Create" method="post">
+        @Html.AntiForgeryToken()
+        
         <div class="form-group">
             <label for="FirstName">Ad</label>
             <input asp-for="FirstName" class="form-control" />
@@ -31,12 +40,36 @@
         </div>
 
         <div class="form-group">
+            <label for="Password">Şifre</label>
+            <input asp-for="Password" type="password" class="form-control" />
+            <span asp-validation-for="Password" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label for="Phone">Telefon</label>
+            <input asp-for="Phone" class="form-control" />
+            <span asp-validation-for="Phone" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label for="Address">Adres</label>
+            <textarea asp-for="Address" class="form-control" rows="3"></textarea>
+            <span asp-validation-for="Address" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
             <label for="Role">Rol</label>
             <select asp-for="Role" class="form-control">
                 <option value="admin">Admin</option>
                 <option value="member">Üye</option>
             </select>
             <span asp-validation-for="Role" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label for="MembershipNumber">Üyelik Numarası</label>
+            <input asp-for="MembershipNumber" class="form-control" />
+            <span asp-validation-for="MembershipNumber" class="text-danger"></span>
         </div>
 
         <button type="submit" class="btn btn-success">Kaydet</button>

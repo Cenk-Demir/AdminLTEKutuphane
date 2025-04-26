@@ -11,7 +11,15 @@
 </div>
 
 <div class="container-fluid mt-3">
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger">
+            @TempData["Error"]
+        </div>
+    }
+
     <form asp-action="Edit" method="post">
+        @Html.AntiForgeryToken()
         <input type="hidden" asp-for="Id" />
         
         <div class="form-group">
@@ -30,6 +38,12 @@
             <label for="Email">E-Posta</label>
             <input asp-for="Email" type="email" class="form-control" />
             <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label for="Password">Şifre</label>
+            <input asp-for="Password" type="password" class="form-control" />
+            <span asp-validation-for="Password" class="text-danger"></span>
         </div>
 
         <div class="form-group">

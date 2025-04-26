@@ -44,7 +44,7 @@ namespace AdminLTEKutuphane.Controllers
         // Kullanıcıları listele
         public async Task<IActionResult> UserList()
         {
-            var users = await _firestoreService.GetUsersAsync();
+            var users = await _firestoreService.GetAllUsersAsync();
             return View(users);
         }
 

@@ -2,6 +2,8 @@ using AdminLTEKutuphane.Models;
 using AdminLTEKutuphane.Services;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
+using System;
+using System.Collections.Generic;
 
 namespace AdminLTEKutuphane.Controllers
 {
@@ -14,87 +16,179 @@ namespace AdminLTEKutuphane.Controllers
             _firestoreService = firestoreService;
         }
 
-        // Kullanıcıları listele
+        // GET: User
         public async Task<IActionResult> Index()
         {
-            var users = await _firestoreService.GetUsersAsync();
-            return View(users);
+            try
+            {
+                var users = await _firestoreService.GetAllUsersAsync();
+                return View(users);
+            }
+            catch (Exception ex)
+            {
+                TempData["Error"] = "Kullanıcılar listelenirken bir hata oluştu: " + ex.Message;
+                return View(new List<User>());
+            }
         }
 
-        // Kullanıcı ekle
-        public IActionResult Add()
+        // GET: User/Create
+        public IActionResult Create()
         {
             return View();
         }
 
+        // POST: User/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Add(User user)
+        public async Task<IActionResult> Create(User user)
         {
-            if (ModelState.IsValid)
+            try
             {
-                await _firestoreService.AddUserAsync(user);
-                return RedirectToAction("Index");
+                if (ModelState.IsValid)
+                {
+                    await _firestoreService.AddUserAsync(user);
+                    TempData["Success"] = "Kullanıcı başarıyla eklendi.";
+                    return RedirectToAction(nameof(Index));
+                }
+
+                foreach (var modelState in ModelState.Values)
+                {
+                    foreach (var error in modelState.Errors)
+                    {
+                        Console.WriteLine($"Validation Error: {error.ErrorMessage}");
+                    }
+                }
+
+                return View(user);
             }
-            return View(user);
+            catch (Exception ex)
+            {
+                ModelState.AddModelError("", "Kullanıcı eklenirken bir hata oluştu: " + ex.Message);
+                return View(user);
+            }
         }
 
-        // Kullanıcı detayları
+        // GET: User/Details/5
         public async Task<IActionResult> Details(string id)
         {
-            var user = await _firestoreService.GetUserByIdAsync(id);
-            if (user == null)
+            try
             {
-                return NotFound();
+                if (string.IsNullOrEmpty(id))
+                {
+                    return NotFound();
+                }
+
+                var user = await _firestoreService.GetUserAsync(id);
+                if (user == null)
+                {
+                    return NotFound();
+                }
+                return View(user);
             }
-            return View(user);
+            catch (Exception ex)
+            {
+                TempData["Error"] = "Kullanıcı detayları alınırken bir hata oluştu: " + ex.Message;
+                return RedirectToAction(nameof(Index));
+            }
         }
 
-        // Kullanıcı düzenle
+        // GET: User/Edit/5
         public async Task<IActionResult> Edit(string id)
         {
-            var user = await _firestoreService.GetUserByIdAsync(id);
-            if (user == null)
+            try
             {
-                return NotFound();
+                if (string.IsNullOrEmpty(id))
+                {
+                    return NotFound();
+                }
+
+                var user = await _firestoreService.GetUserAsync(id);
+                if (user == null)
+                {
+                    return NotFound();
+                }
+                return View(user);
             }
-            return View(user);
+            catch (Exception ex)
+            {
+                TempData["Error"] = "Kullanıcı bilgileri alınırken bir hata oluştu: " + ex.Message;
+                return RedirectToAction(nameof(Index));
+            }
         }
 
+        // POST: User/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(string id, User user)
         {
-            if (id != user.Id)
+            try
             {
-                return NotFound();
-            }
+                if (id != user.Id)
+                {
+                    return NotFound();
+                }
 
-            if (ModelState.IsValid)
-            {
-                await _firestoreService.UpdateUserAsync(id, user);
-                return RedirectToAction("Index");
+                if (ModelState.IsValid)
+                {
+                    await _firestoreService.UpdateUserAsync(user);
+                    TempData["Success"] = "Kullanıcı başarıyla güncellendi.";
+                    return RedirectToAction(nameof(Index));
+                }
+                return View(user);
             }
-            return View(user);
+            catch (Exception ex)
+            {
+                ModelState.AddModelError("", "Kullanıcı güncellenirken bir hata oluştu: " + ex.Message);
+                return View(user);
+            }
         }
 
-        // Kullanıcı sil
+        // GET: User/Delete/5
         public async Task<IActionResult> Delete(string id)
         {
-            var user = await _firestoreService.GetUserByIdAsync(id);
-            if (user == null)
+            try
             {
-                return NotFound();
+                if (string.IsNullOrEmpty(id))
+                {
+                    return NotFound();
+                }
+
+                var user = await _firestoreService.GetUserAsync(id);
+                if (user == null)
+                {
+                    return NotFound();
+                }
+                return View(user);
             }
-            return View(user);
+            catch (Exception ex)
+            {
+                TempData["Error"] = "Kullanıcı bilgileri alınırken bir hata oluştu: " + ex.Message;
+                return RedirectToAction(nameof(Index));
+            }
         }
 
-        [HttpPost, ActionName("Delete")]
+        // POST: User/Delete/5
+        [HttpPost]
         [ValidateAntiForgeryToken]
+        [ActionName("Delete")]
         public async Task<IActionResult> DeleteConfirmed(string id)
         {
-            await _firestoreService.DeleteUserAsync(id);
-            return RedirectToAction("Index");
+            try
+            {
+                if (string.IsNullOrEmpty(id))
+                {
+                    return NotFound();
+                }
+
+                await _firestoreService.DeleteUserAsync(id);
+                TempData["Success"] = "Kullanıcı başarıyla silindi.";
+                return RedirectToAction(nameof(Index));
+            }
+            catch (Exception ex)
+            {
+                TempData["Error"] = "Kullanıcı silinirken bir hata oluştu: " + ex.Message;
+                return RedirectToAction(nameof(Index));
+            }
         }
     }
 }

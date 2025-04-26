@@ -1,0 +1,78 @@
+@model AdminLTEKutuphane.Models.Book
+@{
+    ViewData["Title"] = "Kitap Sil";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="content-header">
+    <div class="container-fluid">
+        <h1 class="m-0">Kitap Sil</h1>
+    </div>
+</div>
+
+<div class="container-fluid mt-3">
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger">
+            @TempData["Error"]
+        </div>
+    }
+
+    <div class="card">
+        <div class="card-body">
+            <div class="alert alert-warning">
+                <h5><i class="bi bi-exclamation-triangle"></i> Dikkat!</h5>
+                <p>Bu kitabı silmek istediğinizden emin misiniz?</p>
+            </div>
+
+            <dl class="row">
+                <dt class="col-sm-3">Kitap Adı</dt>
+                <dd class="col-sm-9">@Model.Title</dd>
+
+                <dt class="col-sm-3">Yazar</dt>
+                <dd class="col-sm-9">@Model.Author</dd>
+
+                <dt class="col-sm-3">ISBN</dt>
+                <dd class="col-sm-9">@Model.ISBN</dd>
+
+                <dt class="col-sm-3">Yayınevi</dt>
+                <dd class="col-sm-9">@Model.Publisher</dd>
+
+                <dt class="col-sm-3">Yayın Yılı</dt>
+                <dd class="col-sm-9">@Model.PublicationYear</dd>
+
+                <dt class="col-sm-3">Sayfa Sayısı</dt>
+                <dd class="col-sm-9">@Model.PageCount</dd>
+
+                <dt class="col-sm-3">Kategori</dt>
+                <dd class="col-sm-9">@Model.Category</dd>
+
+                <dt class="col-sm-3">Raf Numarası</dt>
+                <dd class="col-sm-9">@Model.ShelfNumber</dd>
+
+                <dt class="col-sm-3">Durum</dt>
+                <dd class="col-sm-9">
+                    @if (Model.IsAvailable)
+                    {
+                        <span class="badge bg-success">Müsait</span>
+                    }
+                    else
+                    {
+                        <span class="badge bg-danger">Ödünç Verildi</span>
+                    }
+                </dd>
+            </dl>
+
+            <form asp-action="Delete" method="post">
+                @Html.AntiForgeryToken()
+                <input type="hidden" asp-for="Id" />
+                <button type="submit" class="btn btn-danger">
+                    <i class="bi bi-trash"></i> Evet, Sil
+                </button>
+                <a asp-action="Index" class="btn btn-secondary">
+                    <i class="bi bi-arrow-left"></i> İptal
+                </a>
+            </form>
+        </div>
+    </div>
+</div> 

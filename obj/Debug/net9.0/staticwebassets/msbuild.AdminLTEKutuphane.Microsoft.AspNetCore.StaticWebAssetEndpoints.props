@@ -4,13 +4,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AdminLTEKutuphane.0yrv5hdzet.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"0yrv5hdzet"},{"Name":"integrity","Value":"sha256-ODgU21UG1uNEha52REKbJguK6huiI3/tu98e6FXEYyg="},{"Name":"label","Value":"_content/AdminLTEKutuphane/AdminLTEKutuphane.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1086"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022ODgU21UG1uNEha52REKbJguK6huiI3/tu98e6FXEYyg=\u0022"},{"Name":"Last-Modified","Value":"Wed, 23 Apr 2025 01:22:06 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1086"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022ODgU21UG1uNEha52REKbJguK6huiI3/tu98e6FXEYyg=\u0022"},{"Name":"Last-Modified","Value":"Sat, 26 Apr 2025 03:03:26 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/AdminLTEKutuphane/AdminLTEKutuphane.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AdminLTEKutuphane.0yrv5hdzet.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ODgU21UG1uNEha52REKbJguK6huiI3/tu98e6FXEYyg="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1086"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022ODgU21UG1uNEha52REKbJguK6huiI3/tu98e6FXEYyg=\u0022"},{"Name":"Last-Modified","Value":"Wed, 23 Apr 2025 01:22:06 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1086"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022ODgU21UG1uNEha52REKbJguK6huiI3/tu98e6FXEYyg=\u0022"},{"Name":"Last-Modified","Value":"Sat, 26 Apr 2025 03:03:26 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/AdminLTEKutuphane/assets/img/AdminLTEFullLogo.0gtvjjsegk.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\AdminLTEFullLogo.png'))</AssetFile>

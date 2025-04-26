@@ -1,60 +1,4 @@
-/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/AdminLTEKutuphane.GeneratedMSBuildEditorConfig.editorconfig
-/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/AdminLTEKutuphane.AssemblyInfoInputs.cache
-/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/AdminLTEKutuphane.AssemblyInfo.cs
-/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/AdminLTEKutuphane.csproj.CoreCompileInputs.cache
-/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/AdminLTEKutuphane.MvcApplicationPartsAssemblyInfo.cache
-/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/AdminLTEKutuphane.RazorAssemblyInfo.cache
-/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/AdminLTEKutuphane.RazorAssemblyInfo.cs
-/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/bin/Debug/net9.0/appsettings.Development.json
-/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/bin/Debug/net9.0/appsettings.json
-/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/bin/Debug/net9.0/AdminLTEKutuphane.staticwebassets.runtime.json
-/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/bin/Debug/net9.0/AdminLTEKutuphane.staticwebassets.endpoints.json
-/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/bin/Debug/net9.0/AdminLTEKutuphane
-/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/bin/Debug/net9.0/AdminLTEKutuphane.deps.json
-/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/bin/Debug/net9.0/AdminLTEKutuphane.runtimeconfig.json
-/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/bin/Debug/net9.0/AdminLTEKutuphane.dll
-/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/bin/Debug/net9.0/AdminLTEKutuphane.pdb
-/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
-/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/scopedcss/bundle/AdminLTEKutuphane.styles.css
-/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/scopedcss/projectbundle/AdminLTEKutuphane.bundle.scp.css
-/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/05yrzoi9uv-61n19gt1b8.gz
-/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/c3ggnjfu27-0yrv5hdzet.gz
-/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/vnm11u0le8-0yrv5hdzet.gz
-/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/staticwebassets.build.json
-/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/staticwebassets.development.json
-/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/staticwebassets.build.endpoints.json
-/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/staticwebassets/msbuild.AdminLTEKutuphane.Microsoft.AspNetCore.StaticWebAssets.props
-/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/staticwebassets/msbuild.AdminLTEKutuphane.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/staticwebassets/msbuild.build.AdminLTEKutuphane.props
-/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.AdminLTEKutuphane.props
-/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.AdminLTEKutuphane.props
-/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/staticwebassets.pack.json
-/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/AdminLTEKutuphane.dll
-/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/refint/AdminLTEKutuphane.dll
-/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/AdminLTEKutuphane.pdb
-/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/AdminLTEKutuphane.genruntimeconfig.cache
-/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/ref/AdminLTEKutuphane.dll
-/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/enogbttox3-3ti8pkgn20.gz
-/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/dscyqf63a7-3zpwalpuda.gz
-/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/sxobcqfaim-gjrdkc01zn.gz
-/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/iqtng8a647-nt7juh6h50.gz
-/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/vvxke2w308-l5kagb46um.gz
-/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/jcpkxhz7wq-a1v63x9wfv.gz
-/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/5m6djxnqo0-l2ewhp8w1q.gz
-/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/i5hs4q9mc4-q8ls3kvgdx.gz
-/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/atk26iq4xh-s5dfy8cuvy.gz
-/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/q47h16oz27-ddky5r22iq.gz
-/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/5s91qv1jtk-sc6ou6m5p0.gz
-/home/muzaffer206/Masaüstü/Web Prog./AdminLTEKutuphane/obj/Debug/net9.0/compressed/prcbvd94ok-3xv8oehij3.gz
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/appsettings.Development.json
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/appsettings.json
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/AdminLTEKutuphane.staticwebassets.runtime.json
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/AdminLTEKutuphane.staticwebassets.endpoints.json
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/AdminLTEKutuphane
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/AdminLTEKutuphane.deps.json
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/AdminLTEKutuphane.runtimeconfig.json
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/AdminLTEKutuphane.dll
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/AdminLTEKutuphane.pdb
+/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/AdminLTEKutuphane.csproj.AssemblyReference.cache
 /home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/AdminLTEKutuphane.GeneratedMSBuildEditorConfig.editorconfig
 /home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/AdminLTEKutuphane.AssemblyInfoInputs.cache
 /home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/AdminLTEKutuphane.AssemblyInfo.cs
@@ -63,6 +7,46 @@
 /home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/AdminLTEKutuphane.RazorAssemblyInfo.cache
 /home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/AdminLTEKutuphane.RazorAssemblyInfo.cs
 /home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/AdminLTEKutuphane.sourcelink.json
+/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/appsettings.Development.json
+/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/appsettings.json
+/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/build_output/AdminLTEKutuphane.deps.json
+/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/build_output/AdminLTEKutuphane.runtimeconfig.json
+/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/build_output/AdminLTEKutuphane.staticwebassets.endpoints.json
+/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/build_output/AdminLTEKutuphane.staticwebassets.runtime.json
+/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/build_output/appsettings.Development.json
+/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/build_output/appsettings.json
+/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/build_output/fir-kutuphane-lte-firebase-adminsdk-fbsvc-c28f20b2a2.json
+/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/fir-kutuphane-lte-firebase-adminsdk-fbsvc-c28f20b2a2.json
+/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/AdminLTEKutuphane.staticwebassets.runtime.json
+/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/AdminLTEKutuphane.staticwebassets.endpoints.json
+/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/AdminLTEKutuphane
+/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/AdminLTEKutuphane.deps.json
+/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/AdminLTEKutuphane.runtimeconfig.json
+/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/AdminLTEKutuphane.dll
+/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/AdminLTEKutuphane.pdb
+/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/FirebaseAdmin.dll
+/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/Google.Api.CommonProtos.dll
+/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/Google.Api.Gax.dll
+/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/Google.Api.Gax.Grpc.dll
+/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/Google.Api.Gax.Rest.dll
+/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/Google.Apis.dll
+/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/Google.Apis.Auth.dll
+/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/Google.Apis.Core.dll
+/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/Google.Cloud.Firestore.dll
+/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/Google.Cloud.Firestore.V1.dll
+/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/Google.Cloud.Location.dll
+/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/Google.LongRunning.dll
+/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/Google.Protobuf.dll
+/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/Grpc.Auth.dll
+/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/Grpc.Core.Api.dll
+/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/Grpc.Net.Client.dll
+/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/Grpc.Net.Common.dll
+/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/Microsoft.Bcl.AsyncInterfaces.dll
+/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/Newtonsoft.Json.dll
+/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/System.CodeDom.dll
+/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/System.Linq.Async.dll
+/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/System.Management.dll
+/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/runtimes/win/lib/net7.0/System.Management.dll
 /home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
 /home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/scopedcss/bundle/AdminLTEKutuphane.styles.css
 /home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/scopedcss/projectbundle/AdminLTEKutuphane.bundle.scp.css
@@ -90,74 +74,9 @@
 /home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.AdminLTEKutuphane.props
 /home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.AdminLTEKutuphane.props
 /home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/staticwebassets.pack.json
+/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/AdminLTE.3129A857.Up2Date
 /home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/AdminLTEKutuphane.dll
 /home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/refint/AdminLTEKutuphane.dll
 /home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/AdminLTEKutuphane.pdb
 /home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/AdminLTEKutuphane.genruntimeconfig.cache
 /home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/ref/AdminLTEKutuphane.dll
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/build_output/appsettings.Development.json
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/build_output/appsettings.json
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/build_output/fir-kutuphane-lte-firebase-adminsdk-fbsvc-c28f20b2a2.json
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/build_output/AdminLTEKutuphane.staticwebassets.runtime.json
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/build_output/AdminLTEKutuphane.staticwebassets.endpoints.json
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/build_output/AdminLTEKutuphane
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/build_output/AdminLTEKutuphane.deps.json
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/build_output/AdminLTEKutuphane.runtimeconfig.json
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/build_output/AdminLTEKutuphane.dll
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/build_output/AdminLTEKutuphane.pdb
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/build_output/FirebaseAdmin.dll
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/build_output/Google.Api.CommonProtos.dll
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/build_output/Google.Api.Gax.dll
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/build_output/Google.Api.Gax.Grpc.dll
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/build_output/Google.Api.Gax.Rest.dll
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/build_output/Google.Apis.dll
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/build_output/Google.Apis.Auth.dll
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/build_output/Google.Apis.Core.dll
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/build_output/Google.Cloud.Firestore.dll
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/build_output/Google.Cloud.Firestore.V1.dll
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/build_output/Google.Cloud.Location.dll
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/build_output/Google.LongRunning.dll
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/build_output/Google.Protobuf.dll
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/build_output/Grpc.Auth.dll
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/build_output/Grpc.Core.Api.dll
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/build_output/Grpc.Net.Client.dll
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/build_output/Grpc.Net.Common.dll
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/build_output/Microsoft.Bcl.AsyncInterfaces.dll
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/build_output/Newtonsoft.Json.dll
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/build_output/System.CodeDom.dll
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/build_output/System.Linq.Async.dll
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/build_output/System.Management.dll
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/build_output/runtimes/win/lib/net7.0/System.Management.dll
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/AdminLTEKutuphane.csproj.AssemblyReference.cache
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/obj/Debug/net9.0/AdminLTE.3129A857.Up2Date
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/build_output/AdminLTEKutuphane.deps.json
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/build_output/AdminLTEKutuphane.runtimeconfig.json
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/build_output/AdminLTEKutuphane.staticwebassets.endpoints.json
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/build_output/AdminLTEKutuphane.staticwebassets.runtime.json
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/build_output/appsettings.Development.json
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/build_output/appsettings.json
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/build_output/fir-kutuphane-lte-firebase-adminsdk-fbsvc-c28f20b2a2.json
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/fir-kutuphane-lte-firebase-adminsdk-fbsvc-c28f20b2a2.json
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/FirebaseAdmin.dll
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/Google.Api.CommonProtos.dll
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/Google.Api.Gax.dll
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/Google.Api.Gax.Grpc.dll
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/Google.Api.Gax.Rest.dll
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/Google.Apis.dll
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/Google.Apis.Auth.dll
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/Google.Apis.Core.dll
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/Google.Cloud.Firestore.dll
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/Google.Cloud.Firestore.V1.dll
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/Google.Cloud.Location.dll
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/Google.LongRunning.dll
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/Google.Protobuf.dll
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/Grpc.Auth.dll
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/Grpc.Core.Api.dll
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/Grpc.Net.Client.dll
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/Grpc.Net.Common.dll
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/Microsoft.Bcl.AsyncInterfaces.dll
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/Newtonsoft.Json.dll
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/System.CodeDom.dll
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/System.Linq.Async.dll
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/System.Management.dll
-/home/user/Belgeler/vs code proje/AdminLTEKutuphane/bin/Debug/net9.0/runtimes/win/lib/net7.0/System.Management.dll
