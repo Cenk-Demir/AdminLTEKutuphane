@@ -1,101 +1,128 @@
-@model List<AdminLTEKutuphane.Models.BorrowedBook>
+@model IEnumerable<AdminLTEKutuphane.Models.BorrowedBook>
+
 @{
-    ViewData["Title"] = "Ödünç Kitap İşlemleri";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Ödünç Alınan Kitaplar";
 }
 
-<div class="content-header">
-    <div class="container-fluid">
-        <h1 class="m-0">Ödünç Kitap İşlemleri</h1>
-        <a asp-action="Create" class="btn btn-success mt-3">Yeni Ödünç Kitap Kaydı</a>
-    </div>
-</div>
-
-<div class="container-fluid mt-3">
-    @if (TempData["Error"] != null)
-    {
-        <div class="alert alert-danger">
-            @TempData["Error"]
+<div class="content-wrapper">
+    <section class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1>Ödünç Alınan Kitaplar</h1>
+                </div>
+                <div class="col-sm-6">
+                    <a asp-action="Create" class="btn btn-primary float-right">
+                        <i class="fas fa-plus"></i> Yeni Ödünç Kitap
+                    </a>
+                </div>
+            </div>
         </div>
-    }
+    </section>
 
-    @if (TempData["Success"] != null)
-    {
-        <div class="alert alert-success">
-            @TempData["Success"]
-        </div>
-    }
-
-    <div class="card">
-        <div class="card-body">
-            <table class="table table-bordered table-striped">
-                <thead>
-                    <tr>
-                        <th>Kitap</th>
-                        <th>Kullanıcı</th>
-                        <th>Ödünç Alma Tarihi</th>
-                        <th>İade Tarihi</th>
-                        <th>Durum</th>
-                        <th>İşlemler</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    @foreach (var item in Model)
-                    {
-                        <tr>
-                            <td>@(item.Book?.Title ?? "Kitap bulunamadı")</td>
-                            <td>@(item.User != null ? $"{item.User.FirstName} {item.User.LastName}" : "Kullanıcı bulunamadı")</td>
-                            <td>@item.BorrowDate.ToString("dd/MM/yyyy")</td>
-                            <td>@item.DueDate.ToString("dd/MM/yyyy")</td>
-                            <td>
-                                @if (item.IsReturned)
-                                {
-                                    <span class="badge bg-success">İade Edildi</span>
-                                }
-                                else if (DateTime.UtcNow > item.DueDate)
-                                {
-                                    <span class="badge bg-danger">Gecikmiş</span>
-                                }
-                                else
-                                {
-                                    <span class="badge bg-warning">Devam Ediyor</span>
-                                }
-                            </td>
-                            <td>
-                                <div class="btn-group">
-                                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info btn-sm">
-                                        <i class="bi bi-info-circle"></i>
-                                    </a>
-                                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary btn-sm">
-                                        <i class="bi bi-pencil"></i>
-                                    </a>
-                                    @if (!item.IsReturned)
+    <section class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="card-title">Ödünç Alınan Kitaplar Listesi</h3>
+                        </div>
+                        <div class="card-body">
+                            <table id="borrowedBooksTable" class="table table-bordered table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>Kitap</th>
+                                        <th>Kullanıcı</th>
+                                        <th>Ödünç Alma Tarihi</th>
+                                        <th>İade Tarihi</th>
+                                        <th>Durum</th>
+                                        <th>İşlemler</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
                                     {
-                                        <a asp-action="Return" asp-route-id="@item.Id" class="btn btn-success btn-sm">
-                                            <i class="bi bi-check-circle"></i>
-                                        </a>
+                                        var statusClass = "";
+                                        var statusText = "";
+                                        
+                                        if (item.IsReturned)
+                                        {
+                                            statusClass = "badge badge-success";
+                                            statusText = "İade Edildi";
+                                        }
+                                        else if (item.DueDate < DateTime.UtcNow)
+                                        {
+                                            statusClass = "badge badge-danger";
+                                            statusText = "Gecikmiş";
+                                        }
+                                        else
+                                        {
+                                            statusClass = "badge badge-warning";
+                                            statusText = "Devam Ediyor";
+                                        }
+
+                                        <tr>
+                                            <td>
+                                                @if (item.Book != null)
+                                                {
+                                                    @item.Book.Title
+                                                }
+                                                else
+                                                {
+                                                    <span class="text-danger">Kitap bulunamadı</span>
+                                                }
+                                            </td>
+                                            <td>
+                                                @if (item.User != null)
+                                                {
+                                                    @($"{item.User.FirstName} {item.User.LastName}")
+                                                }
+                                                else
+                                                {
+                                                    <span class="text-danger">Kullanıcı bulunamadı</span>
+                                                }
+                                            </td>
+                                            <td>@item.BorrowDate.ToLocalTime().ToString("dd.MM.yyyy")</td>
+                                            <td>@item.DueDate.ToLocalTime().ToString("dd.MM.yyyy")</td>
+                                            <td>
+                                                <span class="@statusClass">@statusText</span>
+                                            </td>
+                                            <td>
+                                                @if (!item.IsReturned)
+                                                {
+                                                    <a asp-action="Return" asp-route-id="@item.Id" class="btn btn-success btn-sm">
+                                                        <i class="fas fa-undo"></i> İade Et
+                                                    </a>
+                                                }
+                                                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info btn-sm">
+                                                    <i class="fas fa-info-circle"></i> Detaylar
+                                                </a>
+                                            </td>
+                                        </tr>
                                     }
-                                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">
-                                        <i class="bi bi-trash"></i>
-                                    </a>
-                                </div>
-                            </td>
-                        </tr>
-                    }
-                </tbody>
-            </table>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
 </div>
 
 @section Scripts {
     <script>
-        $(document).ready(function () {
-            $('.table').DataTable({
+        $(function () {
+            $("#borrowedBooksTable").DataTable({
+                "responsive": true,
+                "lengthChange": false,
+                "autoWidth": false,
+                "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"],
                 "language": {
                     "url": "//cdn.datatables.net/plug-ins/1.10.24/i18n/Turkish.json"
                 }
-            });
+            }).buttons().container().appendTo('#borrowedBooksTable_wrapper .col-md-6:eq(0)');
         });
     </script>
 } 

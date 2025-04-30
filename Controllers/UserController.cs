@@ -130,7 +130,20 @@ namespace AdminLTEKutuphane.Controllers
 
                 if (ModelState.IsValid)
                 {
-                    await _firestoreService.UpdateUserAsync(user);
+                    // Mevcut kullanıcıyı al
+                    var existingUser = await _firestoreService.GetUserAsync(id);
+                    if (existingUser == null)
+                    {
+                        return NotFound();
+                    }
+
+                    // Mevcut kullanıcının değişmemesi gereken alanlarını koru
+                    user.CreatedAt = existingUser.CreatedAt;
+                    user.UpdatedAt = DateTime.UtcNow;
+                    user.MembershipStartDate = existingUser.MembershipStartDate;
+                    
+                    // Kullanıcıyı güncelle
+                    await _firestoreService.UpdateUserAsync(id, user);
                     TempData["Success"] = "Kullanıcı başarıyla güncellendi.";
                     return RedirectToAction(nameof(Index));
                 }
@@ -138,7 +151,7 @@ namespace AdminLTEKutuphane.Controllers
             }
             catch (Exception ex)
             {
-                ModelState.AddModelError("", "Kullanıcı güncellenirken bir hata oluştu: " + ex.Message);
+                TempData["Error"] = "Kullanıcı güncellenirken bir hata oluştu: " + ex.Message;
                 return View(user);
             }
         }

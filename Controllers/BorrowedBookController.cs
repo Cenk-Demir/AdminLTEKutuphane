@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Google.Cloud.Firestore;
 
 namespace AdminLTEKutuphane.Controllers
 {
@@ -37,10 +38,15 @@ namespace AdminLTEKutuphane.Controllers
         {
             try
             {
-                var books = await _firestoreService.GetBooksAsync();
+                // Sadece müsait olan kitapları getir
+                var allBooks = await _firestoreService.GetBooksAsync();
+                var availableBooks = allBooks.Where(b => b.IsAvailable).ToList();
+                ViewBag.Books = availableBooks;
+
+                // Tüm aktif kullanıcıları getir
                 var users = await _firestoreService.GetAllUsersAsync();
-                ViewBag.Books = books.Where(b => b.IsAvailable).ToList();
                 ViewBag.Users = users;
+
                 return View();
             }
             catch (Exception ex)
@@ -59,31 +65,60 @@ namespace AdminLTEKutuphane.Controllers
             {
                 if (ModelState.IsValid)
                 {
+                    // Kitabın müsait olup olmadığını kontrol et
                     var book = await _firestoreService.GetBookByIdAsync(borrowedBook.BookId);
                     if (book == null)
                     {
                         ModelState.AddModelError("", "Kitap bulunamadı.");
-                        return View(borrowedBook);
+                        goto PrepareViewBags;
                     }
 
                     if (!book.IsAvailable)
                     {
-                        ModelState.AddModelError("", "Kitap şu anda müsait değil.");
-                        return View(borrowedBook);
+                        ModelState.AddModelError("", "Bu kitap şu anda müsait değil.");
+                        goto PrepareViewBags;
                     }
 
+                    // Kullanıcının var olup olmadığını kontrol et
+                    var user = await _firestoreService.GetUserAsync(borrowedBook.UserId);
+                    if (user == null)
+                    {
+                        ModelState.AddModelError("", "Kullanıcı bulunamadı.");
+                        goto PrepareViewBags;
+                    }
+
+                    // Tarihleri UTC'ye çevir
+                    borrowedBook.CreatedAt = DateTime.UtcNow;
+                    borrowedBook.UpdatedAt = DateTime.UtcNow;
+                    borrowedBook.BorrowDate = DateTime.SpecifyKind(borrowedBook.BorrowDate, DateTimeKind.Utc);
+                    borrowedBook.DueDate = DateTime.SpecifyKind(borrowedBook.DueDate, DateTimeKind.Utc);
+                    borrowedBook.IsReturned = false;
+                    
+                    await _firestoreService.AddBorrowedBookAsync(borrowedBook);
+
+                    // Kitabın durumunu güncelle
                     book.IsAvailable = false;
                     await _firestoreService.UpdateBookAsync(book.Id, book);
-                    await _firestoreService.AddBorrowedBookAsync(borrowedBook);
-                    TempData["Success"] = "Kitap başarıyla ödünç verildi.";
+
+                    TempData["Success"] = "Kitap başarıyla ödünç alındı.";
                     return RedirectToAction(nameof(Index));
                 }
+
+            PrepareViewBags:
+                // ViewBag'leri hazırla
+                var allBooks = await _firestoreService.GetBooksAsync();
+                var availableBooks = allBooks.Where(b => b.IsAvailable).ToList();
+                ViewBag.Books = availableBooks;
+
+                var users = await _firestoreService.GetAllUsersAsync();
+                ViewBag.Users = users;
+
                 return View(borrowedBook);
             }
             catch (Exception ex)
             {
-                ModelState.AddModelError("", "Kitap ödünç verilirken bir hata oluştu: " + ex.Message);
-                return View(borrowedBook);
+                TempData["Error"] = "Kitap ödünç alma işlemi sırasında bir hata oluştu: " + ex.Message;
+                return RedirectToAction(nameof(Index));
             }
         }
 

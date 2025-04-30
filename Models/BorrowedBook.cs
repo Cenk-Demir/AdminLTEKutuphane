@@ -6,7 +6,7 @@ namespace AdminLTEKutuphane.Models
     [FirestoreData]
     public class BorrowedBook
     {
-        [FirestoreProperty("id")]
+        [FirestoreProperty("borrowedId")]
         public string Id { get; set; } = string.Empty;
 
         [Required(ErrorMessage = "Kitap ID zorunludur")]
@@ -35,7 +35,7 @@ namespace AdminLTEKutuphane.Models
         [FirestoreProperty("notes")]
         public string Notes { get; set; } = string.Empty;
 
-        [FirestoreProperty("CreatedAt")]
+        [FirestoreProperty("createdAt")]
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
         
         [FirestoreProperty("updatedAt")]

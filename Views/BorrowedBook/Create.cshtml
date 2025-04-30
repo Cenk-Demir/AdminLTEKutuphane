@@ -1,0 +1,107 @@
+@model AdminLTEKutuphane.Models.BorrowedBook
+
+@{
+    ViewData["Title"] = "Kitap Ödünç Al";
+}
+
+<div class="content-wrapper">
+    <section class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1>Kitap Ödünç Al</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card card-primary">
+                        <div class="card-header">
+                            <h3 class="card-title">Kitap Ödünç Alma Formu</h3>
+                        </div>
+
+                        <form asp-action="Create" method="post">
+                            <div class="card-body">
+                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                                <div class="form-group">
+                                    <label asp-for="BookId" class="control-label">Kitap</label>
+                                    <select asp-for="BookId" class="form-control select2" style="width: 100%;">
+                                        <option value="">Kitap Seçin</option>
+                                        @foreach (var book in ViewBag.Books)
+                                        {
+                                            <option value="@book.Id">@book.Title - @book.Author</option>
+                                        }
+                                    </select>
+                                    <span asp-validation-for="BookId" class="text-danger"></span>
+                                </div>
+
+                                <div class="form-group">
+                                    <label asp-for="UserId" class="control-label">Kullanıcı</label>
+                                    <select asp-for="UserId" class="form-control select2" style="width: 100%;">
+                                        <option value="">Kullanıcı Seçin</option>
+                                        @foreach (var user in ViewBag.Users)
+                                        {
+                                            <option value="@user.Id">@user.FirstName @user.LastName</option>
+                                        }
+                                    </select>
+                                    <span asp-validation-for="UserId" class="text-danger"></span>
+                                </div>
+
+                                <div class="form-group">
+                                    <label asp-for="BorrowDate" class="control-label">Ödünç Alma Tarihi</label>
+                                    <input asp-for="BorrowDate" class="form-control" type="date" />
+                                    <span asp-validation-for="BorrowDate" class="text-danger"></span>
+                                </div>
+
+                                <div class="form-group">
+                                    <label asp-for="DueDate" class="control-label">İade Tarihi</label>
+                                    <input asp-for="DueDate" class="form-control" type="date" />
+                                    <span asp-validation-for="DueDate" class="text-danger"></span>
+                                </div>
+
+                                <div class="form-group">
+                                    <label asp-for="Notes" class="control-label">Notlar</label>
+                                    <textarea asp-for="Notes" class="form-control" rows="3"></textarea>
+                                    <span asp-validation-for="Notes" class="text-danger"></span>
+                                </div>
+                            </div>
+
+                            <div class="card-footer">
+                                <input type="submit" value="Ödünç Ver" class="btn btn-primary" />
+                                <a asp-action="Index" class="btn btn-default float-right">İptal</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script>
+        $(function () {
+            //Initialize Select2 Elements
+            $('.select2').select2();
+
+            // Set default dates
+            var today = new Date();
+            today.setMinutes(today.getMinutes() - today.getTimezoneOffset()); // UTC'ye çevir
+            var todayStr = today.toISOString().split('T')[0];
+
+            var dueDate = new Date();
+            dueDate.setDate(dueDate.getDate() + 14); // 14 gün sonra
+            dueDate.setMinutes(dueDate.getMinutes() - dueDate.getTimezoneOffset()); // UTC'ye çevir
+            var dueDateStr = dueDate.toISOString().split('T')[0];
+
+            $('#BorrowDate').val(todayStr);
+            $('#DueDate').val(dueDateStr);
+        });
+    </script>
+} 
