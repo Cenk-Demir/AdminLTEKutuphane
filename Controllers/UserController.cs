@@ -121,13 +121,13 @@ namespace AdminLTEKutuphane.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(string id, User user)
         {
+            if (id != user.Id)
+            {
+                return NotFound();
+            }
+
             try
             {
-                if (id != user.Id)
-                {
-                    return NotFound();
-                }
-
                 if (ModelState.IsValid)
                 {
                     // Mevcut kullanıcıyı al
@@ -137,23 +137,31 @@ namespace AdminLTEKutuphane.Controllers
                         return NotFound();
                     }
 
-                    // Mevcut kullanıcının değişmemesi gereken alanlarını koru
+                    // Değişmemesi gereken alanları koru
                     user.CreatedAt = existingUser.CreatedAt;
-                    user.UpdatedAt = DateTime.UtcNow;
                     user.MembershipStartDate = existingUser.MembershipStartDate;
-                    
+                    user.MembershipStatus = existingUser.MembershipStatus;
+
+                    // Şifre alanı boşsa, mevcut şifreyi koru
+                    if (string.IsNullOrEmpty(user.Password))
+                    {
+                        user.Password = existingUser.Password;
+                    }
+
                     // Kullanıcıyı güncelle
                     await _firestoreService.UpdateUserAsync(id, user);
+                    
                     TempData["Success"] = "Kullanıcı başarıyla güncellendi.";
                     return RedirectToAction(nameof(Index));
                 }
-                return View(user);
             }
             catch (Exception ex)
             {
-                TempData["Error"] = "Kullanıcı güncellenirken bir hata oluştu: " + ex.Message;
-                return View(user);
+                ModelState.AddModelError("", "Kullanıcı güncellenirken bir hata oluştu: " + ex.Message);
             }
+
+            // Hata durumunda veya ModelState geçersizse
+            return View(user);
         }
 
         // GET: User/Delete/5

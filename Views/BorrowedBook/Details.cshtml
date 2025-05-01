@@ -1,0 +1,123 @@
+@model AdminLTEKutuphane.Models.BorrowedBook
+
+@{
+    ViewData["Title"] = "Ödünç Kitap Detayları";
+}
+
+<div class="content-wrapper">
+    <section class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1>Ödünç Kitap Detayları</h1>
+                </div>
+                <div class="col-sm-6">
+                    <a asp-action="Index" class="btn btn-secondary float-right">
+                        <i class="fas fa-arrow-left"></i> Listeye Dön
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="card-title">Kitap Bilgileri</h3>
+                        </div>
+                        <div class="card-body">
+                            <dl class="row">
+                                <dt class="col-sm-4">Kitap Adı:</dt>
+                                <dd class="col-sm-8">@(Model.Book?.Title ?? "Kitap bulunamadı")</dd>
+
+                                <dt class="col-sm-4">Yazar:</dt>
+                                <dd class="col-sm-8">@(Model.Book?.Author ?? "-")</dd>
+
+                                <dt class="col-sm-4">ISBN:</dt>
+                                <dd class="col-sm-8">@(Model.Book?.ISBN ?? "-")</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="card-title">Kullanıcı Bilgileri</h3>
+                        </div>
+                        <div class="card-body">
+                            <dl class="row">
+                                <dt class="col-sm-4">Ad Soyad:</dt>
+                                <dd class="col-sm-8">@(Model.User != null ? $"{Model.User.FirstName} {Model.User.LastName}" : "Kullanıcı bulunamadı")</dd>
+
+                                <dt class="col-sm-4">E-posta:</dt>
+                                <dd class="col-sm-8">@(Model.User?.Email ?? "-")</dd>
+
+                                <dt class="col-sm-4">Telefon:</dt>
+                                <dd class="col-sm-8">@(Model.User?.Phone ?? "-")</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="card-title">Ödünç Alma Bilgileri</h3>
+                        </div>
+                        <div class="card-body">
+                            <dl class="row">
+                                <dt class="col-sm-3">Ödünç Alma Tarihi:</dt>
+                                <dd class="col-sm-3">@Model.BorrowDate.ToLocalTime().ToString("dd.MM.yyyy HH:mm")</dd>
+
+                                <dt class="col-sm-3">İade Tarihi:</dt>
+                                <dd class="col-sm-3">@Model.DueDate.ToLocalTime().ToString("dd.MM.yyyy HH:mm")</dd>
+
+                                <dt class="col-sm-3">Durum:</dt>
+                                <dd class="col-sm-3">
+                                    @if (Model.IsReturned)
+                                    {
+                                        <span class="badge badge-success">İade Edildi</span>
+                                    }
+                                    else if (Model.DueDate < DateTime.UtcNow)
+                                    {
+                                        <span class="badge badge-danger">Gecikmiş</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge badge-warning">Devam Ediyor</span>
+                                    }
+                                </dd>
+
+                                @if (Model.ReturnDate.HasValue)
+                                {
+                                    <dt class="col-sm-3">İade Edilme Tarihi:</dt>
+                                    <dd class="col-sm-3">@Model.ReturnDate.Value.ToLocalTime().ToString("dd.MM.yyyy HH:mm")</dd>
+                                }
+
+                                <dt class="col-sm-3">Notlar:</dt>
+                                <dd class="col-sm-9">@(string.IsNullOrEmpty(Model.Notes) ? "-" : Model.Notes)</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            @if (!Model.IsReturned)
+            {
+                <div class="row mt-4">
+                    <div class="col-12">
+                        <a asp-action="Return" asp-route-id="@Model.Id" class="btn btn-success">
+                            <i class="fas fa-undo"></i> İade Et
+                        </a>
+                    </div>
+                </div>
+            }
+        </div>
+    </section>
+</div> 

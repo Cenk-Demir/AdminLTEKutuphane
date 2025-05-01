@@ -1,0 +1,72 @@
+@model AdminLTEKutuphane.Models.BorrowedBook
+
+@{
+    ViewData["Title"] = "Kitap İade";
+}
+
+<div class="content-wrapper">
+    <section class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1>Kitap İade</h1>
+                </div>
+                <div class="col-sm-6">
+                    <a asp-action="Index" class="btn btn-secondary float-right">
+                        <i class="fas fa-arrow-left"></i> Listeye Dön
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="card-title">İade Onayı</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="alert alert-info">
+                                <h5><i class="icon fas fa-info"></i> Bilgi!</h5>
+                                Aşağıdaki kitabı iade etmek üzeresiniz. Bu işlem geri alınamaz.
+                            </div>
+
+                            <dl class="row">
+                                <dt class="col-sm-3">Kitap:</dt>
+                                <dd class="col-sm-9">@(Model.Book?.Title ?? "Kitap bulunamadı")</dd>
+
+                                <dt class="col-sm-3">Kullanıcı:</dt>
+                                <dd class="col-sm-9">@(Model.User != null ? $"{Model.User.FirstName} {Model.User.LastName}" : "Kullanıcı bulunamadı")</dd>
+
+                                <dt class="col-sm-3">Ödünç Alma Tarihi:</dt>
+                                <dd class="col-sm-9">@Model.BorrowDate.ToLocalTime().ToString("dd.MM.yyyy HH:mm")</dd>
+
+                                <dt class="col-sm-3">İade Tarihi:</dt>
+                                <dd class="col-sm-9">@Model.DueDate.ToLocalTime().ToString("dd.MM.yyyy HH:mm")</dd>
+                            </dl>
+
+                            <form asp-action="Return" method="post">
+                                <input type="hidden" asp-for="Id" />
+                                <div class="form-group">
+                                    <label asp-for="Notes" class="control-label">İade Notu (Opsiyonel)</label>
+                                    <textarea asp-for="Notes" class="form-control" rows="3" placeholder="İade ile ilgili notlar..."></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-success">
+                                        <i class="fas fa-check"></i> İade Et
+                                    </button>
+                                    <a asp-action="Index" class="btn btn-secondary">
+                                        <i class="fas fa-times"></i> İptal
+                                    </a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div> 

@@ -35,7 +35,7 @@ namespace AdminLTEKutuphane.Models
         [FirestoreProperty("notes")]
         public string Notes { get; set; } = string.Empty;
 
-        [FirestoreProperty("createdAt")]
+        [FirestoreProperty("CreatedAt")]
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
         
         [FirestoreProperty("updatedAt")]

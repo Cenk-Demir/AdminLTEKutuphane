@@ -190,18 +190,19 @@ namespace AdminLTEKutuphane.Controllers
         // GET: BorrowedBook/Details/5
         public async Task<IActionResult> Details(string id)
         {
+            if (string.IsNullOrEmpty(id))
+            {
+                return NotFound();
+            }
+
             try
             {
-                if (string.IsNullOrEmpty(id))
-                {
-                    return NotFound();
-                }
-
                 var borrowedBook = await _firestoreService.GetBorrowedBookByIdAsync(id);
                 if (borrowedBook == null)
                 {
                     return NotFound();
                 }
+
                 return View(borrowedBook);
             }
             catch (Exception ex)

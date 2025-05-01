@@ -332,7 +332,6 @@ namespace AdminLTEKutuphane.Services
         {
             try
             {
-                user.UpdatedAt = DateTime.UtcNow;
                 var docRef = _firestoreDb.Collection("users").Document(userId);
                 var userDoc = await docRef.GetSnapshotAsync();
 
@@ -341,25 +340,48 @@ namespace AdminLTEKutuphane.Services
                     throw new Exception($"ID'si {userId} olan kullanıcı bulunamadı.");
                 }
 
-                await docRef.SetAsync(new Dictionary<string, object>
+                // Tarihleri UTC'ye çevir
+                user.UpdatedAt = DateTime.UtcNow;
+                
+                // Firestore'a gönderilecek veriyi hazırla
+                var updateData = new Dictionary<string, object>
                 {
-                    { "firstname", user.FirstName },
-                    { "lastname", user.LastName },
-                    { "email", user.Email },
-                    { "role", user.Role },
+                    { "firstname", user.FirstName ?? string.Empty },
+                    { "lastname", user.LastName ?? string.Empty },
+                    { "email", user.Email ?? string.Empty },
+                    { "role", user.Role ?? string.Empty },
                     { "phone", user.Phone ?? string.Empty },
                     { "address", user.Address ?? string.Empty },
                     { "membershipnumber", user.MembershipNumber ?? string.Empty },
-                    { "membershipstatus", user.MembershipStatus },
-                    { "membershipstartdate", user.MembershipStartDate },
-                    { "membershipenddate", user.MembershipEndDate },
-                    { "createdat", user.CreatedAt },
+                    { "membershipstatus", user.MembershipStatus ?? "Active" },
                     { "updatedat", user.UpdatedAt }
-                }, SetOptions.MergeAll);
+                };
+
+                // Tarih alanlarını kontrol ederek ekle
+                if (user.MembershipStartDate != DateTime.MinValue)
+                {
+                    updateData["membershipstartdate"] = DateTime.SpecifyKind(user.MembershipStartDate, DateTimeKind.Utc);
+                }
+
+                if (user.MembershipEndDate.HasValue)
+                {
+                    updateData["membershipenddate"] = DateTime.SpecifyKind(user.MembershipEndDate.Value, DateTimeKind.Utc);
+                }
+
+                // Şifre değiştirilmek isteniyorsa ekle
+                if (!string.IsNullOrEmpty(user.Password))
+                {
+                    updateData["password"] = user.Password;
+                }
+
+                // Firestore'u güncelle
+                await docRef.SetAsync(updateData, SetOptions.MergeAll);
+
+                Console.WriteLine($"User updated successfully: {user.FirstName} {user.LastName} ({user.Email})");
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"UpdateUserAsync hata: {ex.Message}");
+                Console.WriteLine($"Error in UpdateUserAsync: {ex.Message}");
                 throw new Exception("Kullanıcı güncellenirken bir hata oluştu: " + ex.Message, ex);
             }
         }
@@ -462,10 +484,81 @@ namespace AdminLTEKutuphane.Services
                 
                 foreach (var doc in snapshot.Documents)
                 {
-                    var data = doc.ToDictionary();
+                    try
+                    {
+                        var data = doc.ToDictionary();
+                        var borrowedBook = new BorrowedBook
+                        {
+                            Id = doc.Id,
+                            BookId = data.GetValueOrDefault("bookId", "")?.ToString() ?? string.Empty,
+                            UserId = data.GetValueOrDefault("userId", "")?.ToString() ?? string.Empty,
+                            BorrowDate = (data.GetValueOrDefault("borrowDate") as Timestamp?)?.ToDateTime() ?? DateTime.UtcNow,
+                            DueDate = (data.GetValueOrDefault("dueDate") as Timestamp?)?.ToDateTime() ?? DateTime.UtcNow,
+                            ReturnDate = (data.GetValueOrDefault("returnDate") as Timestamp?)?.ToDateTime(),
+                            IsReturned = data.GetValueOrDefault("isReturned", false) as bool? ?? false,
+                            Notes = data.GetValueOrDefault("notes", "")?.ToString() ?? string.Empty,
+                            CreatedAt = (data.GetValueOrDefault("createdAt") as Timestamp?)?.ToDateTime() ?? DateTime.UtcNow,
+                            UpdatedAt = (data.GetValueOrDefault("updatedAt") as Timestamp?)?.ToDateTime()
+                        };
+
+                        // Kitap bilgilerini al
+                        if (!string.IsNullOrEmpty(borrowedBook.BookId))
+                        {
+                            try
+                            {
+                                borrowedBook.Book = await GetBookByIdAsync(borrowedBook.BookId);
+                            }
+                            catch (Exception ex)
+                            {
+                                Console.WriteLine($"Kitap bilgileri alınamadı (ID: {borrowedBook.BookId}): {ex.Message}");
+                                // Kitap bulunamasa bile devam et
+                            }
+                        }
+
+                        // Kullanıcı bilgilerini al
+                        if (!string.IsNullOrEmpty(borrowedBook.UserId))
+                        {
+                            try
+                            {
+                                borrowedBook.User = await GetUserAsync(borrowedBook.UserId);
+                            }
+                            catch (Exception ex)
+                            {
+                                Console.WriteLine($"Kullanıcı bilgileri alınamadı (ID: {borrowedBook.UserId}): {ex.Message}");
+                                // Kullanıcı bulunamasa bile devam et
+                            }
+                        }
+
+                        borrowedBooks.Add(borrowedBook);
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine($"Ödünç kitap kaydı işlenirken hata (ID: {doc.Id}): {ex.Message}");
+                        // Hatalı kaydı atla ve devam et
+                        continue;
+                    }
+                }
+                return borrowedBooks;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Ödünç alınan kitaplar alınırken bir hata oluştu: " + ex.Message, ex);
+            }
+        }
+
+        // Ödünç alınan kitabı al
+        public async Task<BorrowedBook> GetBorrowedBookByIdAsync(string borrowedBookId)
+        {
+            try
+            {
+                var docRef = _firestoreDb.Collection("borrowedBooks").Document(borrowedBookId);
+                var snapshot = await docRef.GetSnapshotAsync();
+                if (snapshot.Exists)
+                {
+                    var data = snapshot.ToDictionary();
                     var borrowedBook = new BorrowedBook
                     {
-                        Id = doc.Id,
+                        Id = snapshot.Id,
                         BookId = data.GetValueOrDefault("bookId", "")?.ToString() ?? string.Empty,
                         UserId = data.GetValueOrDefault("userId", "")?.ToString() ?? string.Empty,
                         BorrowDate = (data.GetValueOrDefault("borrowDate") as Timestamp?)?.ToDateTime() ?? DateTime.UtcNow,
@@ -489,38 +582,7 @@ namespace AdminLTEKutuphane.Services
                         borrowedBook.User = await GetUserAsync(borrowedBook.UserId);
                     }
 
-                    borrowedBooks.Add(borrowedBook);
-                }
-                return borrowedBooks;
-            }
-            catch (Exception ex)
-            {
-                throw new Exception("Ödünç alınan kitaplar alınırken bir hata oluştu: " + ex.Message, ex);
-            }
-        }
-
-        // Ödünç alınan kitabı al
-        public async Task<BorrowedBook> GetBorrowedBookByIdAsync(string borrowedBookId)
-        {
-            try
-            {
-                var docRef = _firestoreDb.Collection("borrowedBooks").Document(borrowedBookId);
-                var snapshot = await docRef.GetSnapshotAsync();
-                if (snapshot.Exists)
-                {
-                    return new BorrowedBook
-                    {
-                        Id = snapshot.Id,
-                        BookId = snapshot.GetValue<string>("bookId"),
-                        UserId = snapshot.GetValue<string>("userId"),
-                        BorrowDate = snapshot.GetValue<DateTime>("borrowDate"),
-                        DueDate = snapshot.GetValue<DateTime>("dueDate"),
-                        ReturnDate = snapshot.GetValue<DateTime?>("returnDate"),
-                        IsReturned = snapshot.GetValue<bool>("isReturned"),
-                        Notes = snapshot.GetValue<string>("notes"),
-                        CreatedAt = snapshot.GetValue<DateTime>("CreatedAt"),
-                        UpdatedAt = snapshot.GetValue<DateTime?>("UpdatedAt")
-                    };
+                    return borrowedBook;
                 }
                 return null;
             }

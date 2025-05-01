@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AdminLTEKutuphane")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e5394d45bb8b9937fb6903a085faf46debbf0725")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5689dd461f229f570041138312ec64469f1e6697")]
 [assembly: System.Reflection.AssemblyProductAttribute("AdminLTEKutuphane")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AdminLTEKutuphane")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
