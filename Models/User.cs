@@ -1,62 +1,72 @@
+using System;
 using System.ComponentModel.DataAnnotations;
 using Google.Cloud.Firestore;
 
 namespace AdminLTEKutuphane.Models
 {
     [FirestoreData]
-    public class User
+    public class UserModel
     {
-        [FirestoreProperty("id")]
+        [FirestoreProperty]
         public string Id { get; set; } = string.Empty;
 
-        [Required(ErrorMessage = "Ad zorunludur")]
-        [FirestoreProperty("FirstName")]
+        [Required(ErrorMessage = "Ad gereklidir.")]
+        [StringLength(50, ErrorMessage = "Ad en fazla 50 karakter olabilir.")]
+        [FirestoreProperty]
         public string FirstName { get; set; } = string.Empty;
 
-        [Required(ErrorMessage = "Soyad zorunludur")]
-        [FirestoreProperty("Lastname")]
+        [Required(ErrorMessage = "Soyad gereklidir.")]
+        [StringLength(50, ErrorMessage = "Soyad en fazla 50 karakter olabilir.")]
+        [FirestoreProperty]
         public string LastName { get; set; } = string.Empty;
 
-        [Required(ErrorMessage = "E-posta zorunludur")]
-        [EmailAddress(ErrorMessage = "Geçerli bir e-posta adresi giriniz")]
-        [FirestoreProperty("Email")]
+        [Required(ErrorMessage = "E-posta adresi gereklidir.")]
+        [EmailAddress(ErrorMessage = "Geçerli bir e-posta adresi giriniz.")]
+        [FirestoreProperty]
         public string Email { get; set; } = string.Empty;
 
-        [Required(ErrorMessage = "Şifre zorunludur")]
-        [StringLength(100, MinimumLength = 6, ErrorMessage = "Şifre en az 6 karakter olmalıdır")]
-        [FirestoreProperty("password")]
+        [Required(ErrorMessage = "Şifre gereklidir.")]
+        [StringLength(100, ErrorMessage = "Şifre en az {2} karakter uzunluğunda olmalıdır.", MinimumLength = 6)]
+        [DataType(DataType.Password)]
+        [FirestoreProperty]
         public string Password { get; set; } = string.Empty;
 
-        [Required(ErrorMessage = "Telefon numarası zorunludur")]
-        [Phone(ErrorMessage = "Geçerli bir telefon numarası giriniz")]
-        [FirestoreProperty("phone")]
+        [Required(ErrorMessage = "Rol alanı zorunludur.")]
+        [FirestoreProperty]
+        public string Role { get; set; } = "user";
+
+        [Phone(ErrorMessage = "Geçerli bir telefon numarası giriniz.")]
+        [FirestoreProperty]
         public string Phone { get; set; } = string.Empty;
 
-        [Required(ErrorMessage = "Adres zorunludur")]
-        [FirestoreProperty("address")]
+        [Required(ErrorMessage = "Adres alanı zorunludur.")]
+        [FirestoreProperty]
         public string Address { get; set; } = string.Empty;
 
-        [Required(ErrorMessage = "Rol zorunludur")]
-        [FirestoreProperty("Role")]
-        public string Role { get; set; } = "User";
+        [Required(ErrorMessage = "Meslek alanı zorunludur.")]
+        [FirestoreProperty]
+        public string Job { get; set; } = string.Empty;
 
-        [FirestoreProperty("membershipnumber")]
+        [FirestoreProperty]
         public string MembershipNumber { get; set; } = string.Empty;
 
-        [FirestoreProperty("membershipstatus")]
+        [FirestoreProperty]
         public string MembershipStatus { get; set; } = "Active";
 
-        [FirestoreProperty("membershipstartdate")]
-        public DateTime MembershipStartDate { get; set; } = DateTime.UtcNow;
+        [FirestoreProperty]
+        public Timestamp MembershipStartDate { get; set; } = Timestamp.FromDateTime(DateTime.UtcNow);
 
-        [FirestoreProperty("membershipenddate")]
-        public DateTime? MembershipEndDate { get; set; }
+        [FirestoreProperty]
+        public Timestamp MembershipEndDate { get; set; } = Timestamp.FromDateTime(DateTime.UtcNow.AddYears(1));
 
-        [FirestoreProperty("createdat")]
-        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+        [FirestoreProperty]
+        public Timestamp CreatedAt { get; set; } = Timestamp.FromDateTime(DateTime.UtcNow);
 
-        [FirestoreProperty("updatedat")]
-        public DateTime? UpdatedAt { get; set; }
+        [FirestoreProperty]
+        public Timestamp UpdatedAt { get; set; } = Timestamp.FromDateTime(DateTime.UtcNow);
+
+        [FirestoreProperty]
+        public Timestamp LastLoginAt { get; set; } = Timestamp.FromDateTime(DateTime.UtcNow);
 
         // Navigation properties - not stored in Firestore
         public ICollection<Transaction>? Transactions { get; set; }

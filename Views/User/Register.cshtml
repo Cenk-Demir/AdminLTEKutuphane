@@ -1,0 +1,145 @@
+@model AdminLTEKutuphane.Models.RegisterModel
+
+@{
+    ViewData["Title"] = "Kayıt";
+    Layout = "_Layout";
+}
+
+<div class="register-box">
+    <div class="register-logo">
+        <a href="/"><b>Admin</b>LTE</a>
+    </div>
+    <div class="card">
+        <div class="card-body register-card-body">
+            <p class="login-box-msg">Yeni Üyelik Oluştur</p>
+
+            @if (TempData["SuccessMessage"] != null)
+            {
+                <div class="alert alert-success">
+                    @TempData["SuccessMessage"]
+                </div>
+            }
+
+            @if (TempData["ErrorMessage"] != null)
+            {
+                <div class="alert alert-danger">
+                    @TempData["ErrorMessage"]
+                </div>
+            }
+
+            <form asp-action="Register" method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                
+                <div class="input-group mb-3">
+                    <input asp-for="FirstName" class="form-control" placeholder="Ad" />
+                    <div class="input-group-append">
+                        <div class="input-group-text">
+                            <span class="fas fa-user"></span>
+                        </div>
+                    </div>
+                    <span asp-validation-for="FirstName" class="text-danger"></span>
+                </div>
+                
+                <div class="input-group mb-3">
+                    <input asp-for="LastName" class="form-control" placeholder="Soyad" />
+                    <div class="input-group-append">
+                        <div class="input-group-text">
+                            <span class="fas fa-user"></span>
+                        </div>
+                    </div>
+                    <span asp-validation-for="LastName" class="text-danger"></span>
+                </div>
+                
+                <div class="input-group mb-3">
+                    <input asp-for="Email" class="form-control" placeholder="E-posta" />
+                    <div class="input-group-append">
+                        <div class="input-group-text">
+                            <span class="fas fa-envelope"></span>
+                        </div>
+                    </div>
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                
+                <div class="input-group mb-3">
+                    <input asp-for="Password" class="form-control" placeholder="Şifre" />
+                    <div class="input-group-append">
+                        <div class="input-group-text">
+                            <span class="fas fa-lock"></span>
+                        </div>
+                    </div>
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+                
+                <div class="input-group mb-3">
+                    <input asp-for="ConfirmPassword" class="form-control" placeholder="Şifre Tekrar" />
+                    <div class="input-group-append">
+                        <div class="input-group-text">
+                            <span class="fas fa-lock"></span>
+                        </div>
+                    </div>
+                    <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                </div>
+
+                <div class="input-group mb-3">
+                    <input asp-for="Phone" class="form-control" placeholder="Telefon" />
+                    <div class="input-group-append">
+                        <div class="input-group-text">
+                            <span class="fas fa-phone"></span>
+                        </div>
+                    </div>
+                    <span asp-validation-for="Phone" class="text-danger"></span>
+                </div>
+
+                <div class="input-group mb-3">
+                    <input asp-for="Address" class="form-control" placeholder="Adres" />
+                    <div class="input-group-append">
+                        <div class="input-group-text">
+                            <span class="fas fa-map-marker-alt"></span>
+                        </div>
+                    </div>
+                    <span asp-validation-for="Address" class="text-danger"></span>
+                </div>
+
+                <div class="input-group mb-3">
+                    <input asp-for="Job" class="form-control" placeholder="Meslek" />
+                    <div class="input-group-append">
+                        <div class="input-group-text">
+                            <span class="fas fa-briefcase"></span>
+                        </div>
+                    </div>
+                    <span asp-validation-for="Job" class="text-danger"></span>
+                </div>
+                
+                <div class="row">
+                    <div class="col-8">
+                        <div class="icheck-primary">
+                            <input type="checkbox" id="agreeTerms" name="terms" value="agree">
+                            <label for="agreeTerms">
+                                <a href="#">Kullanım Koşulları</a>'nı kabul ediyorum
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <button type="submit" class="btn btn-primary btn-block">Kayıt Ol</button>
+                    </div>
+                </div>
+            </form>
+
+            <div class="social-auth-links text-center">
+                <p>- VEYA -</p>
+                <a href="#" class="btn btn-block btn-primary">
+                    <i class="fab fa-facebook mr-2"></i> Facebook ile Kayıt Ol
+                </a>
+                <a href="#" class="btn btn-block btn-danger">
+                    <i class="fab fa-google-plus mr-2"></i> Google ile Kayıt Ol
+                </a>
+            </div>
+
+            <a asp-action="Login" class="text-center">Zaten üye misiniz? Giriş yapın</a>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+} 

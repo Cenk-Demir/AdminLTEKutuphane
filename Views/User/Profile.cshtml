@@ -1,0 +1,133 @@
+@model AdminLTEKutuphane.Models.User
+@{
+    ViewData["Title"] = "Profil";
+    Layout = "_Layout";
+}
+
+<div class="content-wrapper">
+    <section class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1>Profil</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card card-primary card-outline">
+                        <div class="card-body box-profile">
+                            <div class="text-center">
+                                <img class="profile-user-img img-fluid img-circle"
+                                     src="~/img/user4-128x128.jpg"
+                                     alt="User profile picture">
+                            </div>
+                            <h3 class="profile-username text-center">@Model.FullName</h3>
+                            <p class="text-muted text-center">@Model.Job</p>
+                            <ul class="list-group list-group-unbordered mb-3">
+                                <li class="list-group-item">
+                                    <b>Üyelik Durumu</b> <a class="float-right">@Model.MembershipStatus</a>
+                                </li>
+                                <li class="list-group-item">
+                                    <b>Üyelik Başlangıç</b> 
+                                    <a class="float-right">@Model.MembershipStartDate.ToShortDateString()</a>
+                                </li>
+
+                                <li class="list-group-item">
+                                    <b>Üyelik Bitiş</b> 
+                                    <a class="float-right">
+                                        @if (Model.MembershipEndDate.HasValue)
+                                        {
+                                            @Model.MembershipEndDate.Value.ToShortDateString()
+                                        }
+                                        else
+                                        {
+                                            <span>Bilgi yok</span>  <!-- Null olduğunda gösterilecek mesaj -->
+                                        }
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-9">
+                    <div class="card">
+                        <div class="card-header p-2">
+                            <ul class="nav nav-pills">
+                                <li class="nav-item"><a class="nav-link active" href="#settings" data-toggle="tab">Ayarlar</a></li>
+                            </ul>
+                        </div>
+                        <div class="card-body">
+                            <div class="tab-content">
+                                <div class="active tab-pane" id="settings">
+                                    <form class="form-horizontal" asp-action="UpdateProfile" method="post">
+                                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                        <input type="hidden" asp-for="Id" />
+                                        <input type="hidden" asp-for="Email" />
+                                        <input type="hidden" asp-for="Role" />
+                                        <input type="hidden" asp-for="CreatedAt" />
+                                        <input type="hidden" asp-for="LastLoginAt" />
+                                        <input type="hidden" asp-for="MembershipStatus" />
+                                        <input type="hidden" asp-for="MembershipStartDate" />
+                                        <input type="hidden" asp-for="MembershipEndDate" />
+
+                                        <div class="form-group row">
+                                            <label asp-for="FirstName" class="col-sm-2 col-form-label">Ad</label>
+                                            <div class="col-sm-10">
+                                                <input asp-for="FirstName" class="form-control" placeholder="Ad">
+                                                <span asp-validation-for="FirstName" class="text-danger"></span>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label asp-for="LastName" class="col-sm-2 col-form-label">Soyad</label>
+                                            <div class="col-sm-10">
+                                                <input asp-for="LastName" class="form-control" placeholder="Soyad">
+                                                <span asp-validation-for="LastName" class="text-danger"></span>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label asp-for="Phone" class="col-sm-2 col-form-label">Telefon</label>
+                                            <div class="col-sm-10">
+                                                <input asp-for="Phone" class="form-control" placeholder="Telefon">
+                                                <span asp-validation-for="Phone" class="text-danger"></span>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label asp-for="Address" class="col-sm-2 col-form-label">Adres</label>
+                                            <div class="col-sm-10">
+                                                <textarea asp-for="Address" class="form-control" placeholder="Adres"></textarea>
+                                                <span asp-validation-for="Address" class="text-danger"></span>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label asp-for="Job" class="col-sm-2 col-form-label">Meslek</label>
+                                            <div class="col-sm-10">
+                                                <input asp-for="Job" class="form-control" placeholder="Meslek">
+                                                <span asp-validation-for="Job" class="text-danger"></span>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="offset-sm-2 col-sm-10">
+                                                <button type="submit" class="btn btn-danger">Güncelle</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+} 

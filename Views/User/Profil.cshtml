@@ -1,0 +1,172 @@
+@model AdminLTEKutuphane.Models.User
+
+@{
+    ViewData["Title"] = "Profil";
+    Layout = "_Layout";
+}
+
+<div class="content-wrapper">
+    <section class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1>Profil</h1>
+                </div>
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item"><a href="/">Ana Sayfa</a></li>
+                        <li class="breadcrumb-item active">Profil</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card card-primary card-outline">
+                        <div class="card-body box-profile">
+                            <div class="text-center">
+                                <img class="profile-user-img img-fluid img-circle"
+                                     src="~/img/user4-128x128.jpg"
+                                     alt="User profile picture">
+                            </div>
+                            <h3 class="profile-username text-center">@Model.FullName</h3>
+                            <p class="text-muted text-center">@Model.Job</p>
+                            <ul class="list-group list-group-unbordered mb-3">
+                                <li class="list-group-item">
+                                    <b>Üyelik Durumu</b> 
+                                    <a class="float-right">@Model.MembershipStatus</a>
+                                </li>
+
+                                <li class="list-group-item">
+                                    <b>Üyelik Başlangıç</b> 
+                                    <a class="float-right">@Model.MembershipStartDate.ToShortDateString()</a>
+                                </li>
+
+                                <li class="list-group-item">
+                                    <b>Üyelik Bitiş</b> 
+                                    <a class="float-right">
+                                        @if (Model.MembershipEndDate.HasValue)
+                                        {
+                                            @Model.MembershipEndDate.Value.ToShortDateString()
+                                        }
+                                        else
+                                        {
+                                            <span>Bilgi yok</span>  <!-- Null olduğunda görüntüleyecek mesaj -->
+                                        }
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-9">
+                    <div class="card">
+                        <div class="card-header p-2">
+                            <ul class="nav nav-pills">
+                                <li class="nav-item"><a class="nav-link active" href="#settings" data-toggle="tab">Ayarlar</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#activity" data-toggle="tab">Aktivite</a></li>
+                            </ul>
+                        </div>
+                        <div class="card-body">
+                            <div class="tab-content">
+                                <div class="active tab-pane" id="settings">
+                                    <form asp-action="UpdateProfile" method="post">
+                                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                        <input type="hidden" asp-for="Id" />
+                                        <input type="hidden" asp-for="Email" />
+                                        <input type="hidden" asp-for="Role" />
+                                        <input type="hidden" asp-for="MembershipStatus" />
+                                        <input type="hidden" asp-for="MembershipStartDate" />
+                                        <input type="hidden" asp-for="MembershipEndDate" />
+                                        <input type="hidden" asp-for="CreatedAt" />
+                                        <input type="hidden" asp-for="LastLoginAt" />
+
+                                        <div class="form-group">
+                                            <label asp-for="FirstName">Ad</label>
+                                            <input asp-for="FirstName" class="form-control" />
+                                            <span asp-validation-for="FirstName" class="text-danger"></span>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label asp-for="LastName">Soyad</label>
+                                            <input asp-for="LastName" class="form-control" />
+                                            <span asp-validation-for="LastName" class="text-danger"></span>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label asp-for="Phone">Telefon</label>
+                                            <input asp-for="Phone" class="form-control" />
+                                            <span asp-validation-for="Phone" class="text-danger"></span>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label asp-for="Address">Adres</label>
+                                            <textarea asp-for="Address" class="form-control"></textarea>
+                                            <span asp-validation-for="Address" class="text-danger"></span>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label asp-for="Job">Meslek</label>
+                                            <input asp-for="Job" class="form-control" />
+                                            <span asp-validation-for="Job" class="text-danger"></span>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <button type="submit" class="btn btn-primary">Kaydet</button>
+                                        </div>
+                                    </form>
+                                </div>
+
+                                <div class="tab-pane" id="activity">
+                                    <div class="timeline timeline-inverse">
+                                        <div class="time-label">
+                                        <span class="bg-danger">
+                                            @Model.CreatedAt.ToString("dd.MM.yyyy")
+                                        </span>
+                                    </div>
+                                        <div class="timeline-item">
+                                            <span class="time">
+                                                <i class="far fa-clock"></i>
+                                                @Model.CreatedAt.ToString("HH:mm")
+                                            </span>
+                                            <h3 class="timeline-header">Hesap oluşturuldu</h3>
+                                        </div>
+
+                                        <div>
+                                            <i class="fas fa-sign-in-alt bg-success"></i>
+                                            <div class="timeline-item">
+                                                <span class="time"> 
+                                                    <i class="far fa-clock"></i>
+                                                    @if (Model.LastLoginAt.HasValue)
+                                                    {
+                                                        @Model.LastLoginAt.Value.ToString("HH:mm")
+                                                    }
+                                                    else
+                                                    {
+                                                        <span>Bilgi yok</span>  <!-- Null olduğunda görüntüleyecek mesaj -->
+                                                    }
+                                                </span>
+                                                <h3 class="timeline-header">Son giriş</h3>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+} 
